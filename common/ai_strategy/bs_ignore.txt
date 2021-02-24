@@ -1,0 +1,31 @@
+
+bs_ignore_tiny_nations = {
+	enable = {
+		always = yes
+	}
+	abort = {
+		OR = {
+			has_war_with = VCT
+			has_war_with = SMR
+			has_war_with = ADR
+		}
+	}
+	
+	ai_strategy = {
+		type = ignore
+		id = "VCT"
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = ignore
+		id = "SMR"
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = ignore
+		id = "ADR"
+		value = 100
+	}
+}

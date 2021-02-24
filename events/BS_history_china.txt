@@ -1,0 +1,139 @@
+add_namespace = bshischina
+
+country_event = {
+	id = bshischina.1
+	title = bshischina.1.t
+	desc = bshischina.1.d
+
+	picture = GFX_report_event_chinese_soldiers
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SZH
+		date > 1938.01.01
+		has_war_with = JAP
+		CHI = { is_faction_leader = yes }
+		is_in_faction_with = CHI
+		JAP = {
+			AND = {
+				has_war_with = CHI
+				has_war_with = SZH
+			}
+		}
+		NOT = { has_global_flag = china_szechwan }
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = bshischina.1.a
+		ai_chance = { factor = 100 }
+		CHI = {
+			annex_country = {
+				target = SZH
+				transfer_troops = yes
+			}
+			change_tag_from = ROOT
+		}
+		set_global_flag = china_szechwan
+	}
+
+	option = {
+		name = bshischina.1.b
+	}
+}
+
+country_event = {
+	id = bshischina.2
+	title = bshischina.2.t
+	desc = bshischina.2.d
+
+	picture = GFX_report_event_chinese_soldiers
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = NEA
+		date > 1937.01.01
+		has_war_with = JAP
+		CHI = { is_faction_leader = yes }
+		is_in_faction_with = CHI
+		JAP = {
+			AND = {
+				has_war_with = CHI
+				has_war_with = NEA
+			}
+		}
+		NOT = { has_global_flag = china_northeast }
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = bshischina.2.a
+		ai_chance = { factor = 100 }
+		CHI = {
+			annex_country = {
+				target = NEA
+				transfer_troops = yes
+			}
+			change_tag_from = ROOT
+		}
+		set_global_flag = china_northeast
+	}
+
+	option = {
+		name = bshischina.2.b
+	}
+}
+
+country_event = {
+	id = bshischina.3
+	title = bshischina.3.t
+	desc = bshischina.3.d
+
+	picture = GFX_report_event_chinese_soldiers
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = HSI
+		date > 1939.01.01
+		has_war_with = JAP
+		CHI = { is_faction_leader = yes }
+		is_in_faction_with = CHI
+		JAP = {
+			AND = {
+				has_war_with = CHI
+				has_war_with = HSI
+			}
+		}
+		NOT = { has_global_flag = china_hsikang }
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = bshischina.3.a
+		ai_chance = { factor = 100 }
+		CHI = {
+			annex_country = {
+				target = HSI
+				transfer_troops = yes
+			}
+			change_tag_from = ROOT
+		}
+		set_global_flag = china_hsikang
+	}
+
+	option = {
+		name = bshischina.3.b
+	}
+}

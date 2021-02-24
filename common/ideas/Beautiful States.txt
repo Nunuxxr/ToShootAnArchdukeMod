@@ -1,0 +1,558 @@
+ideas = {
+
+	country = {
+		king_leopold_iii = {
+			
+			allowed = {
+				original_tag = BEL
+			}
+
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+					has_government = fascism
+				}
+				NOT = {
+					any_other_country = {
+						original_tag = BEL
+						has_government = democratic 
+						NOT = {
+							tag = ROOT
+						}
+					}
+				}
+			}
+			
+			picture = king_leopold_iii
+
+			removal_cost = -1
+			
+			traits = { popular_figurehead }
+			
+
+		}
+
+		end_of_ichigo = {
+		
+			name = end_of_ichigo
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_intervene_in_china
+			
+			targeted_modifier = {
+				tag = CHI
+				attack_bonus_against = -0.1
+				#defense_bonus_against = -0.15
+			}
+
+			#targeted_modifier = {
+			#	tag = PRC
+			#	attack_bonus_against = -0.3
+			#	defense_bonus_against = -0.15
+			#}
+
+			#targeted_modifier = {
+			#	tag = YUN
+			#	attack_bonus_against = -0.3
+			#	defense_bonus_against = -0.15
+			#}
+
+			#targeted_modifier = {
+			#	tag = GXC
+			#	attack_bonus_against = -0.3
+			#	defense_bonus_against = -0.15
+			#}
+
+			#targeted_modifier = {
+			#	tag = XSM
+			#	attack_bonus_against = -0.3
+			#	defense_bonus_against = -0.15
+			#}
+
+			#targeted_modifier = {
+			#	tag = SIK
+			#	attack_bonus_against = -0.3
+			#	defense_bonus_against = -0.15
+			#}
+
+			#targeted_modifier = {
+			#	tag = SHX
+			#	attack_bonus_against = -0.3
+			#	defense_bonus_against = -0.15
+			#}
+		}
+	
+		major_chinese_offensive_1944 = {
+		
+			name = major_chinese_offensive_1944
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.25
+				defense_bonus_against = 0.25
+			}
+		}
+	
+		major_soviet_offensive_1944 = {
+		
+			name = major_soviet_offensive_1944
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.25
+				defense_bonus_against = 0.25
+			}
+		}
+
+		attrition_in_russia_0 = {
+		
+			name = attrition_in_russia
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			#targeted_modifier = {
+			#	tag = SOV
+			#	attack_bonus_against = -0.5
+			#	defense_bonus_against = -0.25
+			#}
+		}
+	
+		attrition_in_russia_1 = {
+		
+			name = attrition_in_russia
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.05
+			}
+		}
+	
+		attrition_in_russia_2 = {
+		
+			name = attrition_in_russia
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = -0.2
+				defense_bonus_against = -0.1
+			}
+		}
+	
+		attrition_in_russia_3 = {
+		
+			name = attrition_in_russia
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = -0.3
+				defense_bonus_against = -0.15
+			}
+		}
+	
+		attrition_in_russia_4 = {
+		
+			name = attrition_in_russia
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = -0.4
+				defense_bonus_against = -0.2
+			}
+		}
+	
+		attrition_in_russia_5 = {
+		
+			name = attrition_in_russia
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = -0.5
+				defense_bonus_against = -0.25
+			}
+		}
+
+		democratic_influence_custom = {
+
+			name = democratic_influence			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				democratic_drift = 0.1
+				#democratic_acceptance = 85
+			}
+		}
+
+		ITA_italy_unprep = {
+
+
+			name = ITA_italy_unprep
+
+			picture = FRA_matignon_agreements
+
+			allowed = {
+				original_tag = ITA
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				ai_get_ally_desire_factor = -200
+				ai_join_ally_desire_factor = -200
+				join_faction_tension = 0.5
+			}
+
+			rule = { can_decline_call_to_war = yes }
+
+		}
+
+		generic_unprep = {
+
+			name = generic_unprep
+
+			picture = FRA_matignon_agreements
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				ai_get_ally_desire_factor = -200
+				ai_join_ally_desire_factor = -200
+				join_faction_tension = 0.5
+			}
+
+			rule = { can_decline_call_to_war = yes }
+
+		}
+
+		blitzkrieg_1939_1941 = {
+		
+			name = blitzkrieg_1939_1941
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			modifier = {
+				defence = 0.15
+				offence = 0.15
+				army_morale_factor = 0.25
+				attrition = -0.25
+				army_speed_factor = 0.30
+			}
+		}
+
+
+		blitzkrieg_japan_phase_one = {
+		
+			name = blitzkrieg_japan
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = CHI
+				attack_bonus_against = 2.00
+				defense_bonus_against = 2.00
+			}
+		}
+
+		blitzkrieg_japan_phase_two = {
+		
+			name = blitzkrieg_japan
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = CHI
+				attack_bonus_against = 1.00
+				defense_bonus_against = 1.00
+			}
+		}
+
+		blitzkrieg_japan_phase_three = {
+		
+			name = blitzkrieg_japan
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = CHI
+				attack_bonus_against = -0.20
+				defense_bonus_against = 0.50
+			}
+		}
+
+		blitzkrieg_japan_phase_four = {
+		
+			name = blitzkrieg_japan
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = CHI
+				attack_bonus_against = -0.60
+				defense_bonus_against = 0.10
+			}
+		}
+
+		blitzkrieg_japan_phase_five = {
+		
+			name = blitzkrieg_japan
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = CHI
+				attack_bonus_against = -0.80
+			}
+		}
+
+		blitzkrieg_china = {
+		
+			name = blitzkrieg_japan
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_morale_bonus
+			
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 2.00
+				defense_bonus_against = 2.00
+			}
+		}
+
+		german_influence_in_argentina = {
+		
+			name = german_influence_in_argentina
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				fascism_drift = 0.5
+				fascism_acceptance = 175
+			}
+		}
+
+		USA_pearl_harbor_effects = {
+		
+			name = USA_pearl_harbor_effects
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = usa_great_depression
+			
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = -0.25
+				defense_bonus_against = -0.25
+			}
+		}
+	}
+}

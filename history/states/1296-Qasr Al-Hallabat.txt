@@ -1,0 +1,23 @@
+
+state={
+	id=1296
+	name="STATE_1296"
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = JOR
+
+	}
+	
+	provinces={
+		13509 13510 
+	}
+	manpower=210000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
+
