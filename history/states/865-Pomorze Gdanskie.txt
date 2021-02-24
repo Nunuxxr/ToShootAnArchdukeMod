@@ -25,8 +25,6 @@ state={
 		add_core_of = GER
 		add_claim_by = POL
 
-		}
-
 	}
 
 	provinces={

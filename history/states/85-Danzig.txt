@@ -24,9 +24,6 @@ state={
 		add_core_of = DAN
 		add_claim_by = POL
 
-
-		}
-
 	}
 
 	provinces={
