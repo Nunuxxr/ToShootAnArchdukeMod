@@ -15,8 +15,6 @@ state={	#Saarland
 		add_core_of = GER
 		add_core_of = SAR
 
-		}
-
 	}
 
 	provinces={
