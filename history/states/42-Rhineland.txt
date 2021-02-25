@@ -26,22 +26,11 @@ state={
 		add_core_of = GER
 		add_core_of = BAY
 
-		}
-		1939.1.1 = {
-			buildings = {
-				radar_station = 1
-				synthetic_refinery = 3
-
-			}
-
-		}
-
 	}
 
 	provinces={
 		563 3558 11547 11560 
 	}
-	
 	manpower=2795303
 	buildings_max_level_factor=1.000
 	state_category=large_city
