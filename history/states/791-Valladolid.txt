@@ -20,10 +20,10 @@ state={	#Baden
 		}
 
 	}
-
 	provinces={
 		3530 3692 6542 6568 6712 11640 
 	}
+	
 	manpower=1023002
 	buildings_max_level_factor=1.000
 	state_category=town
