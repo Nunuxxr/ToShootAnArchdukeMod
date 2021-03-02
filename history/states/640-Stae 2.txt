@@ -8,8 +8,7 @@ state={
 	}
 
 	history={
-		add_core_of = BRM
-		owner = RAJ
+		owner = BRM
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -21,6 +20,7 @@ state={
 		victory_points = {
 			4425 1 
 		}
+		add_core_of = BRM
 
 	}
 
