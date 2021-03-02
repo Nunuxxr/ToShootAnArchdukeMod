@@ -6,13 +6,13 @@ state={
 	impassable = yes
 
 	history={
-		add_core_of = SUD
-		owner = ENG
+		owner = SUD
 		buildings = {
 			infrastructure = 0
 
 		}
-
+		add_core_of = SUD
+		
 	}
 
 	provinces={
