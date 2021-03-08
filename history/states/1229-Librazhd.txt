@@ -3,7 +3,7 @@ state={
 	name="STATE_1229"
 	
 	history={
-		owner = YUG
+		owner = ALB
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -12,6 +12,12 @@ state={
 		}
 		add_core_of = ALB
 		add_claim_by = ITA
+		1939.4.12 = {
+			owner = ITA
+			controller = ITA
+			remove_claim_by = ITA
+
+		}
 
 	}
 	

@@ -15,27 +15,32 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1930.11.9"
+	ruling_party = liberalism
+	last_election = "1931.7.9"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	neutrality = 48
-	fascism = 50
-	democratic = 1
-	communism = 1
+	communism = 0
+	socialism = 4
+	social democracy = 11
+	liberalism = 43
+	centrism = 19
+	conservatism = 12
+	authoritarianism = 6
+	despotism = 2
+	ultranationalism = 3
 }
 
-set_stability = 0.50
+set_stability = 0.41
 
 create_country_leader = {
-	name = "Kurt Schuschnigg"
+	name = "Franz Ferdinand I von Habsburg-Lorraine"
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
-	expire = "1965.1.1"
-	ideology = centrism
+	expire = "1939.1.1"
+	ideology = social_liberialism_constitutional_monarchy
 	traits = {
 		#
 	}
@@ -46,18 +51,18 @@ create_country_leader = {
 	desc = "POLITICS_KARL_RENNER_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_democracy
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Arthur Seyss-Inquart"
+	name = "Egelbert Dolfuss"
 	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Arthur_Seyss-Inquart.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = ultranationalist_republic
 	traits = {
 		#
 	}
