@@ -119,7 +119,7 @@ ideologies = {
 
 	}
 
-	social democracy = {
+	social_democracy = {
 	
 		types = {
 		
