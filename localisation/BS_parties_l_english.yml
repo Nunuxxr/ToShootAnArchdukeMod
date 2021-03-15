@@ -161,7 +161,6 @@
  SMR_communism_party:0 "PCS"
  SMR_communism_party_long:0 "Partito Comunista Sammarinese"
 
- ADR_democratic_party:0 "Consell General d'Andorra"
  MCO_neutrality_party:0 "Maison Grimaldi"
  
  DAN_fascism_party:0 "NSDAP"
@@ -209,7 +208,3 @@
  
  ITA_Arrow_Cross_party:0 "PFR"
  ITA_Arrow_Cross_party_long:0 "Partito Fascista Repubblicano"
- 
- ADV_fascism_party:0 "German American Bund"
- ADV_communism_party:0 "Communist Party USA"
- ADV_democratic_party:0 "Democratic Party"
