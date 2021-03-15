@@ -171,15 +171,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = centrism
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
-	communism = 2
+	centrism = 100
 }
 
 create_country_leader = {
@@ -187,51 +186,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_CURTIN_DESC"
 	picture = "Portrait_Australia_John_Curtin.dds"
 	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Eric Campbell"
-	desc = "POLITICS_ERIC_CAMPBELL_DESC"
-	picture = "GFX_AST_eric_campbell"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Richard Dixon"
-	desc = "POLITICS_RICHARD_DIXON_DESC"
-	picture = "GFX_AST_richard_dixon"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Earle Page"
-	desc = "POLITICS_EARLE_PAGE_DESC"
-	picture = "GFX_AST_earle_page"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rod Hull"
-	desc = ""
-	picture = "Portrait_Australia_Rod_Hull.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	ideology = centrist_constitutional_republic
 	traits = {
 		#
 	}
@@ -241,15 +196,14 @@ set_convoys = 100
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = centrism
 		last_election = "1937.10.23"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 99
-		communism = 1
+		centrism = 100
 	}
 
 	set_convoys = 100

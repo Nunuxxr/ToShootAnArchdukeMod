@@ -1,4 +1,8 @@
 #reload countrycolors
+PRM = {
+	color = rgb { 255 239 193 }
+	color_ui = rgb { 214 197 152 }
+}
 TUS = {
 	color = rgb { 216 30 5 }
 	color_ui = rgb { 178 20 2 }

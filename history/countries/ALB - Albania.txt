@@ -9,14 +9,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	centrism = 100
 }
 
 set_convoys = 5
@@ -27,20 +27,9 @@ create_country_leader = {
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_Albania_King_Zog.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = centrist_constitutional_republic
 	traits = {
 		#
-	}
-}
-
-create_country_leader = {
-	name = "Enver Hoxha"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		staunch_stalinist
 	}
 }
 
