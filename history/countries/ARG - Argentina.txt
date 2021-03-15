@@ -159,10 +159,7 @@ create_country_leader = {
 	}
 
 	set_popularities = {
-		democratic = 5
-		fascism = 5
-		communism = 12
-		neutrality = 78
+		centrism = 100
 	}
 
 	create_country_leader = {
