@@ -116,14 +116,13 @@ set_convoys = 20
 
 set_convoys = 5
 set_politics = {
-	ruling_party = democratic
+	ruling_party = centrism
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	communism = 2
+	centrism = 100
 }
 
 create_country_leader = {
@@ -131,7 +130,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "GFX_Portrait_chile_arturo_alessandri"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = centrit_constitutional_republic
 	traits = {
 		#
 	}
@@ -139,14 +138,14 @@ create_country_leader = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = centrism
 		last_election = "1938.10.25"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 100
+		centrism = 100
 	}
 
 	create_country_leader = {
@@ -154,7 +153,7 @@ create_country_leader = {
 		desc = "POLITICS_PEDRO_AGUIRRE_CERDA_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 		expire = "1965.1.1"
-		ideology = socialism
+		ideology = centrist_constitutional_republic
 		traits = {
 			#
 		}
@@ -166,7 +165,7 @@ create_country_leader = {
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = ultranationalist_republic
 	traits = {
 		#
 	}
@@ -177,7 +176,7 @@ create_country_leader = {
 	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = bolshevism
 	traits = {
 		#
 	}

@@ -202,14 +202,14 @@ set_convoys = 40
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	centrism = 100
 }
 
 create_country_leader = {
@@ -217,7 +217,7 @@ create_country_leader = {
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
 	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = centrism
 	traits = {
 		generallissimo
 	}
@@ -228,7 +228,7 @@ create_country_leader = {
 	desc = "POLITICS_ZHANG_GUOTAO_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = bolshevism
 	traits = {
 		cornered_fox
 	}
@@ -239,7 +239,7 @@ create_country_leader = {
 	desc = "POLITICS_WANG_JINGWEI_DESC"
 	picture = "GFX_portrait_chi_wang_jingwei"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = ultranationalist_republic
 	traits = {
 		#
 	}
@@ -250,7 +250,7 @@ create_country_leader = {
 	desc = "POLITICS_ZHANG_LAN_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_liberalism_constitutional_republic
 	traits = {
 		#
 	}
