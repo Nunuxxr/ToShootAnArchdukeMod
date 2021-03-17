@@ -62,7 +62,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	centrism = 100
 }
 
 create_country_leader = {
