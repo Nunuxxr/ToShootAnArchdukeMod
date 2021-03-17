@@ -62,5 +62,5 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	centrism = 100
+	centrism' = 100
 }
