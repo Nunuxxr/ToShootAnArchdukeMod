@@ -39,59 +39,12 @@ set_technology = {
 set_convoys = 0
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = centrism
 	last_election = "1936.1.1"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 34
-	fascism = 29
-	communism = 28
-	neutrality = 9
-}
-
-create_country_leader = {
-	name = "Jakub Lorenc-Zalěski"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_6.dds"
-	expire = "1953.3.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Bruno von Openkowski"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_6.dds"
-	expire = "1953.3.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Wójćech Kóčka"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Jurij Kai"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
+	centrism = 100
 }
