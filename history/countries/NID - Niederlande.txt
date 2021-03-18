@@ -122,22 +122,5 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 100
-	communism = 0
-	neutrality = 0
-}
-
-add_ideas = {
-	limited_conscription
-}
-
-create_country_leader = {
-	name = "Arthur Seyss-Inquart"
-	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-	picture = "gfx/leaders/GER/Portrait_Germany_Arthur_Seyss-Inquart.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-	}
+	centrism' = 100
 }
