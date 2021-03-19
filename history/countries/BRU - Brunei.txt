@@ -66,18 +66,7 @@ if = {
 }
 set_convoys = 5
 
-set_popularities = {	democratic = 30	communism = 10	neutrality = 60
-}
-
-create_country_leader = {
-	name = "Omar Ali Saifuddien III"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
-	expire = "1953.3.1"
-	ideology = centrism
-	traits = {
-		
-	}
+set_popularities = {	centrism = 100
 }
 
 1939.1.1 = {

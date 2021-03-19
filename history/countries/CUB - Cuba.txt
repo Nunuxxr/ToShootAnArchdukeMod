@@ -66,27 +66,3 @@ set_politics = {
 set_popularities = {
 	centrism = 100
 }
-
-create_country_leader = {
-	name = "José Agripino Barnet"
-	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
-	picture = "GFX_portrait_cuba_jose_barnet"
-	expire = "1965.1.1"
-	ideology = centrist_constitutiona_republic
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
-	create_country_leader = {
-		name = "Federico Laredo Brú"
-		desc = "POLITICS_FEDERICO_LAREDO_BRU_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = bolshevism
-		traits = {
-			#
-		}
-	}
-}

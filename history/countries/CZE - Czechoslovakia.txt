@@ -32,39 +32,6 @@ set_popularities = {
 	centrism = 100
 }
 
-create_country_leader = {
-	name = "Edvard Beneš"
-	desc = "POLITICS_EDVARD_BENES_DESC"
-	picture = "Portrait_Czech_Edvard_Benes.dds"
-	expire = "1965.1.1"
-	ideology = centrist_constitutional_republic
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jaroslav Krejčí"
-	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
-	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
-	expire = "1965.1.1"
-	ideology = ultranationalist_republic
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Klement Gottwald"
-	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
-	picture = "Portrait_Czech_Klement_Gottwald.dds"
-	expire = "1965.1.1"
-	ideology = bolshevism
-	traits = {
-		#
-	}
-}
-
 create_field_marshal = {
 	name = "Vojtěch Luža"
 	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"

@@ -61,17 +61,6 @@ set_popularities = {
 	centrism = 100
 }
 
-create_country_leader = {
-	name = "Jigme Wangchuck"
-	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
-	picture = "GFX_portrait_buthan_jigme_wangchuk"
-	expire = "1965.1.1"
-	ideology = dentrism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 		ruling_party = centrism

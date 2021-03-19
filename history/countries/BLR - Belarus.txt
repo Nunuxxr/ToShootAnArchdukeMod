@@ -60,19 +60,7 @@ if = {
 	}
 }
 
-set_popularities = {	centrism
+set_popularities = {	centrism = 100
 }
-
-create_country_leader = {
-    name = "Vasil Zacharka"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-    expire = "1965.1.1"
-    ideology = centrism
-    traits = {
-        #
-    }
-}
-
 
 

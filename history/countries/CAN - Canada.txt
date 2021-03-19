@@ -180,17 +180,6 @@ set_popularities = {
 	centrism = 100
 }
 
-create_country_leader = {
-	name = "Mackenzie King"
-	desc = "POLITICS_MACKENZIE_KING_DESC"
-	picture = "Portrait_Canada_Mackenzie_King.dds"
-	expire = "1965.1.1"
-	ideology = centrist_constitutional_monarchy
-	traits = {
-		#
-	}
-}
-
 set_convoys = 100
 set_stability = 0.75
 

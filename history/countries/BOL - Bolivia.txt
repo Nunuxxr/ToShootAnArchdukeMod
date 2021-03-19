@@ -72,18 +72,7 @@ set_politics = {
 }
 
 set_popularities = {
-	centrism
-}
-
-create_country_leader = {
-	name = "José Luis Tejada Sorzano"
-	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
-	picture = "Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
-	expire = "1965.1.1"
-	ideology = centrist_constitutional_republic
-	traits = {
-		#
-	}
+	centrism = 100
 }
 
 1939.1.1 = {
@@ -96,16 +85,5 @@ create_country_leader = {
 
 	set_popularities = {
 		centrism = 100
-	}
-
-	create_country_leader = {
-		name = "Carlos Quintanilla"
-		desc = "POLITICS_CARLOS_QUINTANILLA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = centrist_constitutional_republic
-		traits = {
-			#
-		}
 	}
 }
