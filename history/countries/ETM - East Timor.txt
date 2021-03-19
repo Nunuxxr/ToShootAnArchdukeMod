@@ -58,7 +58,7 @@ if = {
 	}
 }
 
-set_popularities = {	democratic = 60	communism = 10	neutrality = 30
+set_popularities = {	centrism = 100
 }
 
 
