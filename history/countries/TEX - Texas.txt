@@ -37,52 +37,16 @@ set_technology = {
 set_convoys = 30
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = centrism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 92
-	fascism = 5
-	communism = 3
-	neutrality = 0
+	centrism = 100
 }
 
 add_ideas = {
 	disarmed_nation
 	free_trade
-}
-
-
-create_country_leader = {
-	name = "James V. Allred"
-	desc = ""
-	picture = "Portrait_Texas_James.dds"
-	expire = "1950.1.1"
-	ideology = liberalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Arthur Harvey"
-	desc = ""
-	picture = "gfx/leaders/USA/Portrait_USA_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Rex O'donnell"
-	desc = ""
-	picture = "gfx/leaders/USA/Portrait_USA_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
 }

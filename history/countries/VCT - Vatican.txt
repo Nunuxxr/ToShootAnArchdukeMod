@@ -10,16 +10,13 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1922.2.6"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 0
-	neutrality = 100
+	centrism = 100
 }
 
 add_ideas = {
@@ -30,41 +27,16 @@ add_ideas = {
 set_stability = 0.75
 set_war_support = 0.1
 
-create_country_leader = {
-	name = "Pope Pius XI"
-	desc = ""
-	picture = "Portrait_Vatican_Pope.dds"
-	expire = "1939.2.11"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = centrism
 		last_election = "1939.2.10"
 		election_frequency = 60
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 0
-		fascism = 0
-		communism = 0
-		neutrality = 100
-	}
-
-	create_country_leader = {
-		name = "Pope Pius XII"
-		desc = ""
-		picture = "Portrait_Vatican_PiusXII.dds"
-		expire = "1985.10.9"
-		ideology = despotism
-		traits = {
-			#
-		}
+		centrism = 100
 	}
 }
 
