@@ -116,29 +116,16 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = centrism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 100
-	neutrality = 0
-	democratic = 0
-	communism = 0
+	centrism = 100
 }
 
 add_ideas = {
 	limited_conscription
-}
-
-create_country_leader = {
-	name = "Hans Frank"
-	desc = "POLITICS_HANS_FRANK_DESC"
-	picture = "gfx/leaders/GER/Portrait_Germany_Hans_frank.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-	}
 }

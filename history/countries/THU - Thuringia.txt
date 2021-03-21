@@ -117,56 +117,16 @@ set_stability = 0.75
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 
 }
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 30
-	neutrality = 30
+	centrism = 100
 }
 
 add_ideas = {
 }
-
-
-
-#create_country_leader = {
-#	name = "Dennis Fredauer"
-#	desc = ""
-#	picture = ""
-#	expire = "1965.1.1"
-#	ideology = conservatism
-#	traits = {
-#	}
-#}
-#
-
-#create_country_leader = {
-#	name = "Totally not an ally of Skinny Mustache Man"
-#	desc = ""
-#	picture = ""
-#	expire = "1945.1.1"
-#	ideology = nazism
-#	traits = {
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "Ernst Thälmann"
-#	desc = ""
-#	picture = ""
-#	expire = "1956.1.1"
-#	ideology = stalinism
-#	traits = {
-#		assassination_survivor
-#		stalins_puppet
-#		political_prisoner
-#	}
-#}
-
 

@@ -74,18 +74,8 @@ if = {
 	add_ideas = MTG_naval_treaty_adherent
 }
 
-set_popularities = {	democratic = 60	communism = 10	neutrality = 30
+set_popularities = {	centrism = 100
 }
 
-create_country_leader = {
-	name = "Joseph Poindexter"
-	desc = ""
-	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
-	expire = "1960.1.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
 
 

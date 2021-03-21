@@ -181,17 +181,6 @@ set_popularities = {
 	centrism = 100
 }
 
-create_country_leader = {
-	name = "John Curtin"
-	desc = "POLITICS_JOHN_CURTIN_DESC"
-	picture = "Portrait_Australia_John_Curtin.dds"
-	expire = "1965.1.1"
-	ideology = centrist_constitutional_republic
-	traits = {
-		#
-	}
-}
-
 set_convoys = 100
 
 1939.1.1 = {

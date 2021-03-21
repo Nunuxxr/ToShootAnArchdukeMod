@@ -65,53 +65,5 @@ if = {
 }
 
 set_popularities = {
-	democratic = 35
-	neutrality = 32
-	fascism = 13
-	communism = 20
+	centrism = 100
 }
-
-create_country_leader = {
-	name = "Luka Bych"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_6.dds"
-	expire = "1953.3.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Alexander Filimonov"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
-	expire = "1953.3.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Nikolay Bestchetvertnoi"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Andrei Shkuro"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1953.3.1"
-	ideology = nazism
-	traits = {
-		
-	}
-}
-

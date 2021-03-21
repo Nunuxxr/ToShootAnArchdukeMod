@@ -47,65 +47,7 @@ if = {
 
 set_convoys = 25
 set_popularities = {
-	democratic = 10
-	fascism = 10
-	communism = 30
-	neutrality = 50
-}
-
-create_country_leader = {
-	name = "Sukarno"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "A. T. van Starkenborgh Stachouwer"
-	desc = ""
-	picture = "GFX_portrait_indonesia_at_van_starkenborgh"
-	expire = "1953.3.1"
-	ideology = conservatism 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Amir Sjarifuddin Harahap"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Suharto"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Sutan Sjahrir"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
-	traits = {
-		
-	}
+	centrism = 100
 }
 
 if = {

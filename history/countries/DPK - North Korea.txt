@@ -15,26 +15,12 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = centrism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 20
-	fascism = 0
-	communism = 70
-	neutrality = 10
-}
-
-create_country_leader = {
-	name = "Kim Il-sung"
-	desc = ""
-	picture = "Portrait_Korea_ilsung.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		comintern_workhorse
-	}
+	centrism = 100
 }

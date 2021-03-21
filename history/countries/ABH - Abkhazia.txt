@@ -63,17 +63,3 @@ if = {
 set_popularities = {
 	centrism = 100
 }
-
-create_country_leader = {
-	name = "Alexei Agrba"
-	desc = ""
-	picture = "gfx/leaders/ABH/portrait_ABH_alexei_agrba.dds"
-	expire = "1953.3.1"
-	ideology = centrist_constitutional_republic
-	traits = {
-		
-	}
-}
-
-
-

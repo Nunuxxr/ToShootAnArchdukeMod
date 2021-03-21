@@ -64,20 +64,10 @@ if = {
 		basic_battery = 1
 	}
 }
+
 set_convoys = 5
 
-set_popularities = {	democratic = 60	communism = 10	neutrality = 30
-}
-
-create_country_leader = {
-	name = "Lee Kuan Yew"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
+set_popularities = {	centrism = 100
 }
 
 1939.1.1 = {

@@ -58,22 +58,11 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.1.24"
+	ruling_party = centrism
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1938.6.17"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+	centrism = 100
 }

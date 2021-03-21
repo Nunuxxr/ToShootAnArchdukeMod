@@ -58,29 +58,7 @@ if = {
 	}
 }
 
-set_popularities = {	democratic = 10	communism = 50	neutrality = 40
-}
-
-create_country_leader = {
-	name = "Memet Ibraimov"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Noman Çelebicihan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
+set_popularities = {	centrism = 100
 }
 
 
