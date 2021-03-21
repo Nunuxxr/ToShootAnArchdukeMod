@@ -141,13 +141,15 @@ set_convoys = 100
 
 
 set_politics = {
-	ruling_party = centrism
+	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	centrism = 100
+	democratic = 80
+	fascism = 10
+	communism = 10
 }
 
 add_ideas = {
@@ -159,15 +161,28 @@ add_ideas = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = centrism
+		ruling_party = democratic
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		centrism = 100
+		democratic = 99
+		communism = 1
 	}
 }
+
+create_country_leader = {
+	name = "William Dudley Pelley"
+	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	picture = "gfx/leaders/USA/Portrait_USA_William_Dudley_Pelley.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
 
 
 ### Ship Variants ###

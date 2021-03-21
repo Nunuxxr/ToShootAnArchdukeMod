@@ -61,8 +61,54 @@ if = {
 }
 
 set_popularities = {
-	centrism = 100
+	democratic = 34
+	neutrality = 28
+	communism = 23
+	fascism = 15
 }
 
+create_country_leader = {
+	name = "Sadri Maksudi Arsal"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_4.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Aleksandr Alemasov"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Sadri Maksudi Arsal"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_4.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Sadri Maksudi Arsal"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_4.dds"
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
 
 

@@ -117,16 +117,28 @@ set_convoys = 50
 
 
 set_politics = {
-	ruling_party = centrism
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	centrism = 100
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
 }
 
 add_ideas = {
 	limited_conscription
+}
+
+create_country_leader = {
+	name = "Arno Schickedanz"
+	desc = "POLITICS_ARNO_SCHICKEDANZ_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+	}
 }

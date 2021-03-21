@@ -139,6 +139,17 @@ set_popularities = {
 	centrism = 100
 }
 
+create_country_leader = {
+	name = "Agustín Pedro Justo"
+	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
+	picture = "Portrait_Argentina_Agustin_Pedro_Justo.dds"
+	expire = "1965.1.1"
+	ideology = centrist_constitutional_republic
+	traits = {
+		#
+	}
+}
+
 1939.1.1 = {
 	set_politics = {
 		ruling_party = centrism
@@ -148,7 +159,21 @@ set_popularities = {
 	}
 
 	set_popularities = {
-		centrism = 100
+		democratic = 5
+		fascism = 5
+		communism = 12
+		neutrality = 78
+	}
+
+	create_country_leader = {
+		name = "Roberto María Ortiz"
+		desc = "POLITICS_ROBERTO_MARIA_ORTIZ_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = centrist_constitutional_republic
+		traits = {
+			#
+		}
 	}
 }
 

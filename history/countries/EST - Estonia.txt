@@ -112,23 +112,38 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = centrism
+	ruling_party = neutrality
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	centrism = 100
+	democratic = 20
+	fascism = 15
+	communism = 5
+	neutrality = 60
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = centrism
+		ruling_party = neutrality
 		last_election = "1938.2.25"
 		election_frequency = 48
 		elections_allowed = no
 	}
 }
+
+create_country_leader = {
+	name = "Konstantin Päts"
+	desc = "POLITICS_KONSTANTIN_PATS_DESC"
+	picture = "GFX_Portrait_estonia_konstantin_pats"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
 
 ### VARIANTS ###
 # 1939 Start #

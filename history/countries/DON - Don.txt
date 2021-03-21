@@ -65,5 +65,53 @@ if = {
 }
 
 set_popularities = {
-	centrism = 100
+	democratic = 35
+	neutrality = 35
+	fascism = 26
+	communism = 4
 }
+
+create_country_leader = {
+	name = "Gregory P. Tschebotarioff"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Pyotr Krasnov"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Sergo Ordzhonikidze"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Nikolai Nazarenko"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1953.3.1"
+	ideology = nazism
+	traits = {
+		
+	}
+}
+
