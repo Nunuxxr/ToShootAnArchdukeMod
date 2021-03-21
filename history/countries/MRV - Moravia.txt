@@ -21,11 +21,48 @@ set_technology = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = centrism
+	ruling_party = democratic
 	last_election = "1935.5.19"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	centrism = 100
+	democratic = 65
+	fascism = 20
+	communism = 5
+	neutrality = 10
 }
+
+create_country_leader = {
+	name = "Kristián Fišer"
+	desc = ""
+	picture = "gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Stanislav Zapletal"
+	desc = ""
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Silvestr Stejskal"
+	desc = ""
+	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+

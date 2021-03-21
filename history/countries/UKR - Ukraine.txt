@@ -61,8 +61,54 @@ if = {
 }
 
 set_popularities = {
-	centrism = 100
+	democratic = 20
+	fascism = 30
+	communism = 50
 }
+
+create_country_leader = {
+	name = "Kost Levytsky"
+	desc = ""
+	picture = "Portrait_Ukraine_Dmytro.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Nikita Sergeyevich Khrushchev"
+	desc = ""
+	picture = "Portrait_Ukraine_Nikita.dds"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Stepan Bandera"
+	desc = ""
+	picture = "Portrait_Ukraine_Stepan.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+#create_country_leader = {
+#	name = ""
+#	desc = ""
+#	picture = ""
+#	expire = "1953.3.1"
+#	ideology = oligarchism
+#	traits = {
+#		
+#	}
+#}
 
 
 

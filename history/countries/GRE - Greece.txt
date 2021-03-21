@@ -306,19 +306,117 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = centrism
+	ruling_party = neutrality
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
-	centrism = 100
+	democratic = 43
+	fascism = 2
+	communism = 17
+	neutrality = 38
 }
 
 set_stability = 0.72
 set_war_support = 0.23
 set_convoys = 80
 
+
+if = { 
+	limit = { has_dlc = "Battle for the Bosporus" }
+	create_country_leader = {
+		name = "Konstantinos Demertzis"
+		desc = "POLITICS_KONSTANTINOS_DEMERTZIS_DESC"
+		picture = "GFX_portrait_gre_konstantinos_demertzis"
+		expire = "1965.1.1"
+		ideology = centrism
+		traits = {
+			monarchist_puppet
+		}
+	}
+	
+	create_country_leader = {
+		name = "Nikos Zachariadis"
+		desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
+		picture = "GFX_portrait_gre_nikos_zachariadis"
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {
+			reluctant_stalinist
+		}
+	}
+	
+	create_country_leader = {
+		name = "Eleftherios Venizelos"
+		desc = "POLITICS_ELEFTHERIOS_VENIZELOS_DESC"
+		picture = "GFX_portrait_gre_eleftherios_venizelos"
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {
+			ethnarch
+		}
+	}
+	
+	create_country_leader = {
+		name = "George Mercouris"
+		desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
+		picture = "GFX_portrait_gre_george_mercouris"
+		expire = "1965.1.1"
+		ideology = gen_nazism
+		traits = {
+			polemarch
+			likes_turkey
+		}
+	}
+}
+
+if = {
+	limit = { NOT = { has_dlc = "Battle for the Bosporus" } }
+	create_country_leader = {
+		name = "Ioannis Metaxas"
+		desc = "POLITICS_IOANNIS_METAXAS_DESC"
+		picture = "Portrait_Greece_Ioannis_Metaxas.dds"
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {
+			#
+		}
+	}
+	
+	create_country_leader = {
+		name = "Markos Vafiadis"
+		desc = "POLITICS_MARKOS_VAFIADIS_DESC"
+		picture = "Portrait_Greece_Markos_Vafiadis.dds"
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {
+			#
+		}
+	}
+	
+	create_country_leader = {
+		name = "Konstantinos Tsaldaris"
+		desc = "POLITICS_KONSTANTINOS_TSALDARIS_DESC"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+	
+	create_country_leader = {
+		name = "Georgios Kosmidis"
+		desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+		expire = "1965.1.1"
+		ideology = nazism
+		traits = {
+			#
+		}
+	}
+}
 
 if = { 
 	limit = { has_dlc = "Battle for the Bosporus" }

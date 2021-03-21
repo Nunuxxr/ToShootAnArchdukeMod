@@ -63,3 +63,14 @@ if = {
 
 set_popularities = {	centrism = 100
 }
+
+create_country_leader = {
+	name = "Drastamat Kanayan"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1953.3.1"
+	ideology = centrist_constitutional_republic
+	traits = {
+		
+	}
+}

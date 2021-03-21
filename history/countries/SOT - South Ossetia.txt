@@ -58,5 +58,19 @@ if = {
 	}
 }
 
-set_popularities = {	centrism = 100
+set_popularities = {	democratic = 10	communism = 50	neutrality = 40
 }
+
+create_country_leader = {
+	name = "Anastas Mikoyan"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+
+
+

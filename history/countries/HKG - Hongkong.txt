@@ -74,7 +74,29 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-set_popularities = {	centrism = 100
+set_popularities = {	democratic = 40	communism = 28	neutrality = 32
+}
+
+create_country_leader = {
+	name = "Sir Andrew Cadecott"
+	desc = ""
+	picture = "gfx/leaders/HKG/Portrait_Sir_Andrew_Cadecott.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Li Tse-fong"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
 }
 
 set_cosmetic_tag = HKG_UK

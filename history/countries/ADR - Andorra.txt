@@ -35,3 +35,16 @@ add_ideas = {
 	neutrality_idea	
 	limited_conscription
 }
+
+
+
+create_country_leader = {
+	name = "General Council"
+	desc = ""
+	picture = "Portrait_Andorra_General_council.dds"
+	expire = "1960.1.1"
+	ideology = centrist_constitutional_republic
+	traits = {
+		
+	}
+}

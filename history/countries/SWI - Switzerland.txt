@@ -69,19 +69,23 @@ set_technology = {
 give_guarantee = LIE
 
 set_politics = {
-	ruling_party = centrism
+	ruling_party = democratic
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	centrism = 100
+	democratic = 96
+	fascism = 2
+	communism = 2
 }
 
 1939.1.1 = {
 	#next election october 39
 	set_popularities = {
-		centrism = 100
+		democratic = 95
+		fascism = 2
+		communism = 3
 	}
 }
 
@@ -91,6 +95,50 @@ add_ideas = {
 }
 
 set_stability = 0.85
+
+create_country_leader = {
+	name = "Federal Council"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "Portrait_Switzerland_Federal_council.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ernest Béuin"
+	desc = "POLITICS_ERNST_BEGUIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Dr. Max Leo Keller"
+	desc = "POLITICS_MAX_LEO_KELLER_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" 
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fritz Platten"
+	desc = "POLITICS_FRITZ_PLATTEN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
 
 create_corps_commander = {
 	name = "Henri Guisan"

@@ -37,12 +37,15 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = centrism
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	centrism = 100
+	fascism = 90
+	neutrality = 10
+	democratic = 0
+	communism = 0
 }

@@ -63,4 +63,16 @@ if = {
 set_popularities = {	centrism = 100
 }
 
+create_country_leader = {
+	name = "Mir Jafar Baghirov"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1953.3.1"
+	ideology = centrist_constitutional_republic
+	traits = {
+		
+	}
+}
+
+
 

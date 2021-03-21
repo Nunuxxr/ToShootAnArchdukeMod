@@ -90,16 +90,50 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = centrism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = democratic
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = yes
 }
-
 set_popularities = {
-	centrism = 100
+	democratic = 90
+	fascism = 10
+	communism = 0
+	neutrality = 0
 }
 
+create_country_leader = {
+	name = "Gordon Macdonald"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jagger Jenkins"
+	desc = ""
+	picture = "gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bradley Allen"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
 
 set_convoys = 100
 set_stability = 0.75
