@@ -44,12 +44,13 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = centrism'
+	ruling_party = centrism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+	
 }
 set_popularities = {
-	centrism' = 100
+	centrism = 100
 }
 

@@ -17,58 +17,11 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	fascism = 30
-	communism = 0
-	neutrality = 40
-}
-
-create_country_leader = {
-	name = " Josef Bürckel"
-	desc = ""
-	picture = "gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
-	expire = "1960.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Daniel Kohlberg"
-	desc = ""
-	picture = "gfx/leaders/GER/Portrait_Germany_Generic_1.dds"
-	expire = "1960.1.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Augustin Vetter"
-	desc = ""
-	picture = "gfx/leaders/GER/Portrait_Germany_Generic_2.dds"
-	expire = "1960.1.1"
-	ideology = socialism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Marvin Tarr"
-	desc = ""
-	picture = "gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
-	expire = "1960.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
+	centrism = 100
 }
