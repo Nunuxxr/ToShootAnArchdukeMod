@@ -4,13 +4,12 @@ state={
 	name="STATE_1290"
 	
 	history={
-		owner = IRQ
+		owner = SAU
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = IRQ
-		set_demilitarized_zone = yes
+		add_core_of = SAU
 
 	}
 	
