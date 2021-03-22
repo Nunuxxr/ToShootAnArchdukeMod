@@ -482,7 +482,7 @@ ideologies = {
 		ai_neutral = yes # 
 	}
 	
-	ultranationalism = {
+		ultranationalism = {
 	
 		types = {
 		
