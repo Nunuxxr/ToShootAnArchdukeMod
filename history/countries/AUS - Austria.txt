@@ -22,15 +22,15 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 0
-	socialism = 4
-	social democracy = 11
-	liberalism = 43
-	centrism = 19
-	conservatism = 12
-	authoritarianism = 6
-	despotism = 2
-	ultranationalism = 3
+	communism = 1
+	socialism = 33
+	social_democracy = 13
+	liberalism = 34
+	centrism = 5
+	conservative = 5
+	authoritarianism = 4
+	despotism = 3
+	ultranationalism = 2
 }
 
 set_stability = 0.41
