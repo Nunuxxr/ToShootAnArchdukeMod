@@ -1,7 +1,6 @@
 on_actions = {
 	on_capitulation = {
 	    effect = {
-		    
 			if = {
 				limit = {
 					ROOT = {
@@ -229,6 +228,11 @@ on_actions = {
 	
 	on_startup = {
 			effect = {
+					every_country = {
+						limit = { is_subject_of = HUN }
+						Set_cosmetic_tag = TAG_HUN
+					}
+			
 				VEN = {
 					#give_resource_rights = { receiver = ENG state = 476 }
 					#give_resource_rights = { receiver = USA state = 480 }

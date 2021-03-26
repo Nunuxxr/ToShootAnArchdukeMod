@@ -1,4 +1,13 @@
 ﻿l_english:
+ SLO_HUN_autonomy_integrated_puppet:0 "Slovak Autonomy"
+ SLO_HUN_autonomy_integrated_puppet_DEF:0 "the Slovak Autonomy"
+ 
+ BNT_HUN_autonomy_integrated_puppet:0 "Banat Autonomy"
+ BNT_HUN_autonomy_integrated_puppet_DEF:0 "the Banat Autonomy"
+ 
+ TRA_HUN_autonomy_integrated_puppet:0 "Transylvania Autonomy"
+ TRA_HUN_autonomy_integrated_puppet_DEF:0 "the Transylvania Autonomy"
+ 
  SAU_TUR_subject:0 "Rashidi Arabia"
  SAU_TUR_subject_DEF:0 "Rashidi Arabia"
  SAU_TUR_subject_ADJ:0 "Rashidi"

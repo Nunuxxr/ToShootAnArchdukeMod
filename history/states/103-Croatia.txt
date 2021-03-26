@@ -4,7 +4,7 @@ state={
 	name="STATE_103"
 
 	history={
-		owner = YUG
+		owner = SCS
 		victory_points = {
 			6889 1 
 		}
@@ -17,7 +17,7 @@ state={
 			}
 
 		}
-		add_core_of = YUG
+		add_core_of = SCS
 		add_core_of = CRO
 
 	}

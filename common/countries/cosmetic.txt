@@ -1,5 +1,4 @@
 #\############# ORIGINAL COSMETIC.TXT ###############
-
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
@@ -6735,6 +6734,12 @@ ITA_napoleon = {
 SAR_rhineland = {
 	color = rgb { 0 51 19 }
 	color_ui = rgb { 0 51 19 }
+}
+
+TAG_HUN = {
+	color = rgb { 76 128 50 }
+	color_ui = rgb { 255 164 137 }
+}
 #/
 #/
 #/

@@ -124,108 +124,41 @@ if = {
 	}
 }
 
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = BNT
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = TRA
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = SLO
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = BNT
+		puppet = TRA
+		puppet = SLO
+	}
+}
+
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1935.3.31"
+	ruling_party = authoritarianism
+	last_election = "1933.3.31"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 25
-	fascism = 31
-	neutrality = 44
+	authoritarianism = 100
 }
-
-#Start Horty as neutral if DOD
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	create_country_leader = {
-		name = "Miklós Horthy"
-		desc = "POLITICS_MIKLOS_HORTHY_DESC"
-		picture = "Portrait_Hungary_Miklos_Horthy.dds"
-		expire = "1965.1.1"
-		ideology = oligarchism
-		traits = {
-			fascist_sympathies
-			anti_communist
-		}
-		id = 500 #Horthy Neutral
-	}
-	else = {
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = despotism
-		}
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-		}
-	}
-}
-
-create_country_leader = {
-	name = "Mátyás Rákosi"
-	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
-	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Árpád Szakasits"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "Portrait_Arpad_Szakasits.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
-	if = {
-		limit = {
-			has_dlc = "Death or Dishonor"
-		}
-		#Remove neutral Horty add fascist
-		retire_country_leader = yes
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-			traits = {
-				anti_communist
-			}
-			id = 503 #Horty fascist
-		}
-	}
-
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1939.5.29"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 27
-		fascism = 70
-		communism = 3
-	}
-}
-
 
 create_corps_commander = {
 	name = "Géza Lakatos"

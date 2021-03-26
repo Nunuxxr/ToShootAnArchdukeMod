@@ -22,47 +22,30 @@ set_technology = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = centrism
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 65
-	neutrality = 20
-	fascism = 5
-	communism = 10
+	communism = 1
+	socialism = 33
+	social_democracy = 13
+	liberalism = 34
+	centrism = 5
+	conservative = 5
+	authoritarianism = 4
+	despotism = 3
+	ultranationalism = 2
 }
 
 create_country_leader = {
-	name = "Edvard Beneš"
+	name = "Tomas Masaryk"
 	desc = "POLITICS_EDVARD_BENES_DESC"
 	picture = "Portrait_Czech_Edvard_Benes.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jaroslav Krejčí"
-	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
-	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Klement Gottwald"
-	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
-	picture = "Portrait_Czech_Klement_Gottwald.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = centrist_constitutional_monarchy
 	traits = {
 		#
 	}
