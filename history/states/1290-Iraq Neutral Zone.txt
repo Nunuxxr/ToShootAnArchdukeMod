@@ -4,12 +4,20 @@ state={
 	name="STATE_1290"
 	
 	history={
+<<<<<<< HEAD
 		owner = BQR
+=======
+		owner = JBL
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
 		buildings = {
 			infrastructure = 1
 
 		}
+<<<<<<< HEAD
 		add_core_of = BQR
+=======
+		add_core_of = JBL
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
 
 	}
 	

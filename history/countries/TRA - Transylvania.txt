@@ -51,3 +51,5 @@ set_politics = {
 set_popularities = {
 	conservative = 100
 }
+
+set_cosmetic_tag = TAG_HUN

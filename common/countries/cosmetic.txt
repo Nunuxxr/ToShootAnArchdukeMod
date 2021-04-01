@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 TAG_SOV = {
 	color = rgb { 23 135 40 }
 	color_ui = rgb { 30 145 47 }
 }
 
+=======
+#\############# ORIGINAL COSMETIC.TXT ###############
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }

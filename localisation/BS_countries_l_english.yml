@@ -1,4 +1,5 @@
 ﻿l_english:
+<<<<<<< HEAD
  WAF_communism:0 "West African Revolutionary Federation"
  WAF_communism_DEF:0 "the West African Revolutionary Federation"
  WAF_socialism:0 "United West African Socialist Republics"
@@ -246,6 +247,8 @@
  KML_ultranationalism:0 "Kumul"
  KML_ultranationalism_DEF:0 "the Kumul"
  
+=======
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
  TQS_communism:0 "Turkestan Soviet Republic"
  TQS_communism_DEF:0 "the Turkestan Soviet Republic"
  TQS_socialism:0 "Turkestan People's Republic"

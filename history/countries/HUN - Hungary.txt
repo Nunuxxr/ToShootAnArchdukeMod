@@ -41,6 +41,7 @@ set_autonomy = {
 	autonomous_state = autonomy_integrated_puppet
 }
 
+<<<<<<< HEAD
 set_politics = {
 	ruling_party = authoritarianism
 	last_election = "1933.3.31"
@@ -51,6 +52,44 @@ set_popularities = {
 	authoritarianism = 100
 }
 
+=======
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = BNT
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = TRA
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = SLO
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = BNT
+		puppet = TRA
+		puppet = SLO
+	}
+}
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1933.3.31"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	authoritarianism = 100
+}
+
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
 create_corps_commander = {
 	name = "Géza Lakatos"
 	gfx = GFX_Portrait_hungary_geza_lakatos

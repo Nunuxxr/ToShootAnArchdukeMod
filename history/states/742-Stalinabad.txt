@@ -3,8 +3,13 @@ state={
 	name="STATE_742"
 
 	history={
+<<<<<<< HEAD
 		add_core_of = TQS
 		owner = TQS
+=======
+		add_core_of = BQR
+		owner = BQR
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
 		victory_points = {
 			1384 1
 		}
@@ -12,7 +17,11 @@ state={
 			infrastructure = 1
 
 		}
+<<<<<<< HEAD
 		add_core_of = TQS
+=======
+		add_core_of = BQR
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
 		add_core_of = TAJ
 
 	}
