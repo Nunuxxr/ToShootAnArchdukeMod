@@ -3,8 +3,8 @@ state={
 	name="STATE_1148"
 
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = TQS
+		add_core_of = TQS
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 3
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		7711 4651 7795 7856 10550 10619 12529 13197
+		7711 4651 7795 7856 10550 10619 12529 12601 13197
 	}
 	manpower=214076
 	buildings_max_level_factor=1.000

@@ -1,4 +1,7 @@
-#\############# ORIGINAL COSMETIC.TXT ###############
+TAG_SOV = {
+	color = rgb { 23 135 40 }
+	color_ui = rgb { 30 145 47 }
+}
 
 MAL_UK = {
     color = rgb { 201 56 93 }
@@ -281,11 +284,6 @@ CAN_FREE = {
 USA_CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }
-}
-
-SOV_russia = {
-    color = rgb { 72 143 68 }
-    color_ui = rgb { 72 143 68 }
 }
 
 HOL_benelux_unified = {
@@ -824,16 +822,6 @@ EMI_PAR = {
 AGT = {
 	color = rgb { 100 85 170 }
 	color_ui = rgb { 100 85 170 }
-}
-
-TRM_RUS = {
-	color = rgb { 140 255 140 }
-	color_ui = rgb { 140 255 140 }
-}
-
-RUS_TRM = {
-	color = rgb { 140 255 140 }
-	color_ui = rgb { 140 255 140 }
 }
 
 TSC = {
@@ -1547,30 +1535,6 @@ RIF_SPR = {
 	color = rgb { 224 198 94 }
 	color_ui = rgb { 224 198 94 }
 }
-TSC_SOV = {
-	color = rgb { 175 13 0 }
-	color_ui = rgb { 124 0 0 }
-}
-UKR_SOV = {
-	color = rgb { 175 13 0 }
-	color_ui = rgb { 124 0 0 }
-}
-BLR_SOV = {
-	color = rgb { 175 13 0 }
-	color_ui = rgb { 124 0 0 }
-}
-UZB_SOV = {
-	color = rgb { 175 13 0 }
-	color_ui = rgb { 124 0 0 }
-}
-TMS_SOV = {
-	color = rgb { 175 13 0 }
-	color_ui = rgb { 124 0 0 }
-}
-TAJ_SOV = {
-	color = rgb { 175 13 0 }
-	color_ui = rgb { 124 0 0 }
-}
 PAC_JAP = {
 	color = rgb { 165 69 117 }
 	color_ui = rgb { 165 69 117 }
@@ -1796,11 +1760,6 @@ UNS = {
 ERI_ETH = {
 	color = rgb { 15 71 175 }
 	color_ui = rgb { 198 169 248 }
-}
-
-SOV_SovietUnion = {
-	color = rgb { 204 0 0 }
-	color_ui = rgb { 255 0 0 }
 }
 
 EUU = {
@@ -2052,11 +2011,6 @@ GER_PUPPET = {
 	color_ui = rgb { 255 164 127 }
 }
 
-SOV_PUPPET = {	
-	color = rgb { 150 40 40 }
-	color_ui = rgb { 255 164 127 }
-}
-
 AUS_PUPPET = {	
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
@@ -2100,11 +2054,6 @@ ITA_PUPPET = {
 AST_PUPPET = {	
 	color = rgb { 80 155  120 }
 	color_ui = rgb { 255 255 255 }
-}
-
-RUS_PUPPET = {	
-	color = rgb { 0 145 20 }
-	color_ui = rgb { 0 127 14 }
 }
 
 SPR_PUPPET = {	
@@ -2509,11 +2458,6 @@ KUR_IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 
-RUS = {
-	color = rgb { 50 100 50 }
-	color_ui = rgb { 40 90 40 }
-}
-
 WGR_ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
@@ -2534,11 +2478,6 @@ BAV_USA = {
 	color_ui = rgb { 23 27 235 }
 }
 
-SOV_MEN = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
-}
-
 TRI_YUG = {
 	color = rgb { 127 0 0 }
 	color_ui = rgb { 163 17 31 }
@@ -2547,11 +2486,6 @@ TRI_YUG = {
 KOR_USA = {
 	color = rgb { 23 27 235 }
 	color_ui = rgb { 23 27 235 }
-}
-
-KPA_SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
 }
 
 RIF_SPR = {
@@ -3415,10 +3349,6 @@ MIT_MEGALI = {
 #/
 ####Compatible with Millennium Dawn Classic (1.7)
 #\
-SOV_SovietUnion = {
-	color = rgb { 204 0 0 }
-	color_ui = rgb { 255 0 0 }
-}
 EUU = {
     color = rgb { 61 35 166 }
     color_ui = rgb { 255 73 121 }
@@ -3543,11 +3473,6 @@ GREEN = {
 	color_ui = rgb { 0 250 0 }
 }
 
-RUSSIAN = {
-	color = rgb { 103 146 103 }
-	color_ui = rgb { 103 146 103 }
-}
-
 PERIWINKLE = {
 	color = rgb { 200 200 250 }
 	color_ui = rgb { 200 200 250 }
@@ -3611,11 +3536,6 @@ GER_GREY = {
 UK_RED = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 201 56 93 }
-}
-
-SOV_RED = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 125 13 24 }
 }
 
 SWE_BLUE = {
@@ -3818,11 +3738,6 @@ GER_PUPPET = {
 	color_ui = rgb { 255 164 127 }
 }
 
-SOV_PUPPET = {	
-	color = rgb { 150 40 40 }
-	color_ui = rgb { 255 164 127 }
-}
-
 AUS_PUPPET = {	
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
@@ -3866,11 +3781,6 @@ ITA_PUPPET = {
 AST_PUPPET = {	
 	color = rgb { 80 155  120 }
 	color_ui = rgb { 255 255 255 }
-}
-
-RUS_PUPPET = {	
-	color = rgb { 0 145 20 }
-	color_ui = rgb { 0 127 14 }
 }
 
 SPR_PUPPET = {	
@@ -4060,171 +3970,7 @@ PRC_PUPPET = {
 		GER_WUR_PUPPET = { color = rgb { 102  96  96 } color_ui = rgb { 102  96  96 } }
 		GER_ZMB_PUPPET = { color = rgb { 102  96  96 } color_ui = rgb { 102  96  96 } }
 		GER_TJK_PUPPET = { color = rgb { 102  96  96 } color_ui = rgb { 102  96  96 } }
-		
-	##Soviet pupets
-		SOV_AFG_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ALB_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ANG_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ARG_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ARM_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_AST_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_AUS_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_AZR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_BEL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_BHU_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_BLR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_BOL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_BOT_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_BRA_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_BUL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_CAM_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_CAN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_CHI_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_CHL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_COG_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_COL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_COS_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_CRO_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_CUB_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_CZE_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_DDR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_DEN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_DOM_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ECU_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_EGY_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ELS_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ENG_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_EST_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ETH_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_FIN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_FRA_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_GEO_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_GER_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_GRE_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_GUA_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_GXC_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_HAI_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_HOL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_HON_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_HUN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ICE_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_INS_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_IRE_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_IRQ_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ISR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ITA_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_JAP_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_JOR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_KAZ_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_KEN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_KOR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_LAO_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_LAT_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_LBA_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_LEB_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_LIB_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_LIT_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_LUX_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MAL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MAN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MEN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MEX_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MNT_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MON_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MZB_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_NEP_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_NIC_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_NOR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_NZL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_OMA_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_PAK_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_PAL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_PAN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_PAR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_PER_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_PHI_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_POL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_POR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_PRC_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_PRU_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_RAJ_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ROM_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SAF_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SAU_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SER_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SHX_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SIA_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SIK_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SLO_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SOV_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SPR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SWE_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SWI_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SYR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_TAN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_TIB_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_TUR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_UKR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_URG_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_USA_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_VEN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_VIN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_WGR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_XSM_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_YEM_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_YUG_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_YUN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ZIM_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
 
-		##BS
-		SOV_ALG_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_AND_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_BAV_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_BIH_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_BLZ_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_BUR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_CAL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_CAT_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_EGL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ERI_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_GHA_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_GRL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_GUY_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_JAM_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_KGZ_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_KOS_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_KTS_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_LIE_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MAR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MCO_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MDA_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MKD_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MRI_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MRT_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_MRV_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_NAM_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_NIL_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_PRI_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_PRS_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_QUE_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_RUS_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SCT_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SDN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SMR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SOM_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SUR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_SVN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_TEX_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_TKM_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_TSD_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_TUN_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_UZB_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_VCT_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_WLS_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_WUR_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_ZMB_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-		SOV_TJK_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
-	
 	##Japon puppets
 		JAP_AFG_PUPPET = { color = rgb { 255  203  203 } color_ui = rgb { 255  203  203 } }
 		JAP_ALB_PUPPET = { color = rgb { 255  203  203 } color_ui = rgb { 255  203  203 } }
@@ -4320,7 +4066,6 @@ PRC_PUPPET = {
 		JAP_SIA_PUPPET = { color = rgb { 255  203  203 } color_ui = rgb { 255  203  203 } }
 		JAP_SIK_PUPPET = { color = rgb { 255  203  203 } color_ui = rgb { 255  203  203 } }
 		JAP_SLO_PUPPET = { color = rgb { 255  203  203 } color_ui = rgb { 255  203  203 } }
-		JAP_SOV_PUPPET = { color = rgb { 255  203  203 } color_ui = rgb { 255  203  203 } }
 		JAP_SPR_PUPPET = { color = rgb { 255  203  203 } color_ui = rgb { 255  203  203 } }
 		JAP_SWE_PUPPET = { color = rgb { 255  203  203 } color_ui = rgb { 255  203  203 } }
 		JAP_SWI_PUPPET = { color = rgb { 255  203  203 } color_ui = rgb { 255  203  203 } }
@@ -4484,7 +4229,6 @@ PRC_PUPPET = {
 		ENG_SIA_PUPPET = { color = rgb { 201  76  108 } color_ui = rgb { 201  76  108 } }
 		ENG_SIK_PUPPET = { color = rgb { 201  76  108 } color_ui = rgb { 201  76  108 } }
 		ENG_SLO_PUPPET = { color = rgb { 201  76  108 } color_ui = rgb { 201  76  108 } }
-		ENG_SOV_PUPPET = { color = rgb { 201  76  108 } color_ui = rgb { 201  76  108 } }
 		ENG_SPR_PUPPET = { color = rgb { 201  76  108 } color_ui = rgb { 201  76  108 } }
 		ENG_SWE_PUPPET = { color = rgb { 201  76  108 } color_ui = rgb { 201  76  108 } }
 		ENG_SWI_PUPPET = { color = rgb { 201  76  108 } color_ui = rgb { 201  76  108 } }
@@ -4812,7 +4556,7 @@ PRC_PUPPET = {
 		FRA_SIA_PUPPET = { color = rgb { 80  128  228 } color_ui = rgb { 80  128  228 } }
 		FRA_SIK_PUPPET = { color = rgb { 80  128  228 } color_ui = rgb { 80  128  228 } }
 		FRA_SLO_PUPPET = { color = rgb { 80  128  228 } color_ui = rgb { 80  128  228 } }
-		FRA_SOV_PUPPET = { color = rgb { 80  128  228 } color_ui = rgb { 80  128  228 } }
+	s	FRA_SOV_PUPPET = { color = rgb { 80  128  228 } color_ui = rgb { 80  128  228 } }
 		FRA_SPR_PUPPET = { color = rgb { 80  128  228 } color_ui = rgb { 80  128  228 } }
 		FRA_SWE_PUPPET = { color = rgb { 80  128  228 } color_ui = rgb { 80  128  228 } }
 		FRA_SWI_PUPPET = { color = rgb { 80  128  228 } color_ui = rgb { 80  128  228 } }
@@ -5208,171 +4952,7 @@ PRC_PUPPET = {
 		POL_WUR_PUPPET = { color = rgb { 197  112  123 } color_ui = rgb { 197  112  123 } }
 		POL_ZMB_PUPPET = { color = rgb { 197  112  123 } color_ui = rgb { 197  112  123 } }
 		POL_TJK_PUPPET = { color = rgb { 197  112  123 } color_ui = rgb { 197  112  123 } }
-	
-	##Russian pupets
-		RUS_AFG_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ALB_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ANG_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ARG_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ARM_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_AST_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_AUS_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_AZR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_BEL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_BHU_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_BLR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_BOL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_BOT_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_BRA_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_BUL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_CAM_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_CAN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_CHI_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_CHL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_COG_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_COL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_COS_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_CRO_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_CUB_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_CZE_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_DDR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_DEN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_DOM_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ECU_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_EGY_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ELS_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ENG_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_EST_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ETH_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_FIN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_FRA_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_GEO_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_GER_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_GRE_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_GUA_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_GXC_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_HAI_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_HOL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_HON_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_HUN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ICE_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_INS_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_IRE_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_IRQ_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ISR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ITA_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_JAP_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_JOR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_KAZ_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_KEN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_KOR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_LAO_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_LAT_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_LBA_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_LEB_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_LIB_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_LIT_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_LUX_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MAL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MAN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MEN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MEX_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MNT_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MON_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MZB_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_NEP_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_NIC_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_NOR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_NZL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_OMA_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_PAK_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_PAL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_PAN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_PAR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_PER_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_PHI_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_POL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_POR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_PRC_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_PRU_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_RAJ_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ROM_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SAF_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SAU_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SER_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SHX_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SIA_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SIK_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SLO_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SOV_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SPR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SWE_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SWI_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SYR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_TAN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_TIB_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_TUR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_UKR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_URG_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_USA_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_VEN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_VIN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_WGR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_XSM_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_YEM_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_YUG_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_YUN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ZIM_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
 
-		##BS
-		RUS_ALG_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_AND_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_BAV_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_BIH_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_BLZ_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_BUR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_CAL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_CAT_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_EGL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ERI_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_GHA_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_GRL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_GUY_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_JAM_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_KGZ_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_KOS_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_KTS_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_LIE_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MAR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MCO_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MDA_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MKD_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MRI_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MRT_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_MRV_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_NAM_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_NIL_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_PRI_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_PRS_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_QUE_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_RUS_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SCT_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SDN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SMR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SOM_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SUR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_SVN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_TEX_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_TKM_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_TSD_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_TUN_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_UZB_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_VCT_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_WLS_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_WUR_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_ZMB_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-		RUS_TJK_PUPPET = { color = rgb { 0  70  0 } color_ui = rgb { 0  70  0 } }
-	
 	##Formable nations
 		ARA_PUPPET_UNIFIED = { color = rgb { 85 102 0 } color_ui = rgb { 85 102 0 } }
 		AUS_PUPPET_NOT_WHITE = { color = rgb { 249 126 98 } color_ui = rgb { 255 164 127 } }
@@ -5507,7 +5087,6 @@ PRC_PUPPET = {
 	SIA_PUPPET = { color = rgb { 180  190  171 } color_ui = rgb { 180  190  171 } }
 	SIK_PUPPET = { color = rgb { 90  190  158 } color_ui = rgb { 90  190  158 } }
 	SLO_PUPPET = { color = rgb { 177  178  188 } color_ui = rgb { 177  178  188 } }
-	SOV_PUPPET = { color = rgb { 125  25  35 } color_ui = rgb { 125  25  35 } }
 	SPR_PUPPET = { color = rgb { 242  211  118 } color_ui = rgb { 242  211  118 } }
 	SWE_PUPPET = { color = rgb { 61  145  247 } color_ui = rgb { 61  145  247 } }
 	SWI_PUPPET = { color = rgb { 224  27  27 } color_ui = rgb { 224  27  27 } }
@@ -5560,7 +5139,6 @@ PRC_PUPPET = {
 	PRI_PUPPET = { color = rgb { 240  36  35 } color_ui = rgb { 240  36  35 } }
 	PRS_PUPPET = { color = rgb { 85  88  89 } color_ui = rgb { 85  88  89 } }
 	QUE_PUPPET = { color = rgb { 44  21  110 } color_ui = rgb { 44  21  110 } }
-	RUS_PUPPET = { color = rgb { 32  131  163 } color_ui = rgb { 32  131  163 } }
 	SCT_PUPPET = { color = rgb { 32  130  219 } color_ui = rgb { 32  130  219 } }
 	SDN_PUPPET = { color = rgb { 131  158  131 } color_ui = rgb { 131  158  131 } }
 	SMR_PUPPET = { color = rgb { 117  190  228 } color_ui = rgb { 117  190  228 } }
@@ -6063,11 +5641,6 @@ UK_RED = {
 	color_ui = rgb { 201 56 93 }
 }
 
-SOV_RED = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 125 13 24 }
-}
-
 SPQR_RED = {
 	color = rgb { 153 0 0 }
 	color_ui = rgb { 153 0 0 }
@@ -6392,11 +5965,6 @@ color_ui = rgb { 138 155 116 }
 ENG_SCC = {
 color = rgb { 150 10 10 }
 color_ui = rgb { 200 10 10 }
-}
-
-SOV_SCC = {
-color = rgb { 120 13 24 }
-color_ui = rgb { 153 17 31 }
 }
 
 SWE_SCC = {
@@ -6735,6 +6303,12 @@ ITA_napoleon = {
 SAR_rhineland = {
 	color = rgb { 0 51 19 }
 	color_ui = rgb { 0 51 19 }
+}
+
+TAG_HUN = {
+	color = rgb { 76 128 50 }
+	color_ui = rgb { 255 164 137 }
+}
 #/
 #/
 #/

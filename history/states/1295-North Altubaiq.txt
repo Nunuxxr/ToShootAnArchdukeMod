@@ -4,17 +4,17 @@ state={
 	name="STATE_1295"
 	
 	history={
-		owner = SAU
+		owner = TQS
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = SAU
+		add_core_of = 
 
 	}
 	
 	provinces={
-		4562 4603 
+		4300 4374 7243 7600 7657 12329 
 	}
 	manpower=187000
 	buildings_max_level_factor=1.000

@@ -39,26 +39,15 @@ if = {
 	}
 }
 
+set_cosmetic_tag = TAG_HUN
+
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = conservative
+	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Iuliu Maniu"
-	desc = "POLITICS_IULIU_MANIU_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	conservative = 100
 }

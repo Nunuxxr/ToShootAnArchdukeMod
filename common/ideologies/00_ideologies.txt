@@ -89,7 +89,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 255 51 0 }
+		color = { 255 69 52 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -118,25 +118,30 @@ ideologies = {
 		}
 
 	}
-
+	
 	social_democracy = {
 	
 		types = {
 		
 			social_democracy_constitutional_monarchy = {
 			}
-			social_democracy_constitutional_republic
+			social_democracy_constitutional_republic = {
+			}
+			soccon_democracy_constitutional_monarchy = {
+			}
+			soccon_democracy_constitutional_republic = {
+			}
+			soclib_democracy_constitutional_monarchy = {
+			}
+			soclib_democracy_constitutional_republic = {
+			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 255 102 204 }
+		color = { 255 128 192 }
+		
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -157,8 +162,6 @@ ideologies = {
 			airforce_intel_to_others = 10.0
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
-
-		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
 	liberalism = {
@@ -185,11 +188,6 @@ ideologies = {
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
 		}
 		
 		color = { 255 255 0 }
@@ -203,6 +201,8 @@ ideologies = {
 			can_puppet = yes
 			can_send_volunteers = no
 		}
+		
+		can_collaborate = yes
 		
 		modifiers = {
 			#increased_influence_factor = 0.3 #30% easier to influence
@@ -220,8 +220,6 @@ ideologies = {
 		
 		faction_modifiers = {
 		}
-
-		ai_neutral = yes # 
 	}
 	
 	centrism = {
@@ -287,7 +285,7 @@ ideologies = {
 		ai_neutral = yes # 
 	}
 
-	conservatism = {
+	conservative = {
 	
 		types = {
 		
@@ -482,7 +480,7 @@ ideologies = {
 		ai_neutral = yes # 
 	}
 	
-		ultranationalism = {
+	ultranationalism = {
 	
 		types = {
 		
@@ -513,7 +511,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 51 51 0 }
+		color = { 51 20 0 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -544,3 +542,4 @@ ideologies = {
 
 		ai_neutral = yes # 
 	}
+}

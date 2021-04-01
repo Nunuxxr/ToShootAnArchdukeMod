@@ -4,17 +4,17 @@ state={
 	name="STATE_675"
 
 	history={
-		owner = SAU
+		owner = JBL
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SAU
+		add_core_of = JBL
 
 	}
 
 	provinces={
-		1631 4951 10744 12879 
+		1631 4951 10744 12879 13505
 	}
 	manpower=81042
 	buildings_max_level_factor=1.000

@@ -3,10 +3,10 @@ state={
 	name="STATE_1318"
 
         history={
-		owner = SIK
-		add_core_of = SIK
+		owner = KAZ
+		add_core_of = KAZ
+		add_core_of = TUG
 		add_core_of = CHI
-		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -16,7 +16,7 @@ state={
 	}
 
 	provinces={
-		1708 1844 4823 7693 12590 12737 
+		1708 1844 4714 4823 4849 7693 7737 12590 12737 
 	}
 	manpower=49650
 	buildings_max_level_factor=1.000

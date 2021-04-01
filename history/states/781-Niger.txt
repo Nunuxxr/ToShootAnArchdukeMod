@@ -4,7 +4,7 @@ state={
 	name="STATE_781"
 
 	history={
-		owner = FRA
+		owner = WAF
 		add_core_of = NGR
 		victory_points = {
 			2056 1 

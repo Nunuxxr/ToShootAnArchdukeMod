@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = TCF
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = SOV
+		add_core_of = TCF
 		add_core_of = KUB
 		victory_points = {
 			9628 3 
