@@ -75,6 +75,10 @@ if = {
 set_autonomy = {
 	target = TUG
 	autonomous_state = autonomy_puppet
+<<<<<<< Updated upstream
+}
+=======
+<<<<<<< HEAD
 }
 set_autonomy = {
 	target = KHV
@@ -100,11 +104,106 @@ set_autonomy = {
 	target = TMS
 	autonomous_state = autonomy_integrated_puppet
 }
+set_autonomy = {
+	target = FIN
+	autonomous_state = dominion
+}
+set_autonomy = {
+	target = TAN
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = MON
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = BUY
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = TCF
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = LBU
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = UKR
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = CRE
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = EST
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = LAT
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = CUR
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = LIT
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = MOL
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = BLR
+	autonomous_state = autonomy_integrated_puppet
+}
+
+=======
+}
+>>>>>>> Stashed changes
+set_autonomy = {
+	target = KHV
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = BQR
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = KML
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = KAZ
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = TQS
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = TMS
+	autonomous_state = autonomy_integrated_puppet
+}
+<<<<<<< Updated upstream
+=======
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 puppet = TAN
 puppet = MON
 puppet = TUG
 puppet = BUY
+<<<<<<< Updated upstream
 puppet = FIN
+=======
+<<<<<<< HEAD
+=======
+puppet = FIN
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 puppet = POL
 puppet = UKR
 puppet = EST

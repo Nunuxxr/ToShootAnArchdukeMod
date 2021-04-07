@@ -7,9 +7,20 @@ state={
 		add_core_of = TQS
 		owner = TQS
 =======
+<<<<<<< Updated upstream
 		add_core_of = BQR
 		owner = BQR
 >>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+=======
+<<<<<<< HEAD
+		add_core_of = TQS
+		owner = TQS
+=======
+		add_core_of = BQR
+		owner = BQR
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 		victory_points = {
 			1384 1
 		}
@@ -20,8 +31,17 @@ state={
 <<<<<<< HEAD
 		add_core_of = TQS
 =======
+<<<<<<< Updated upstream
 		add_core_of = BQR
 >>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+=======
+<<<<<<< HEAD
+		add_core_of = TQS
+=======
+		add_core_of = BQR
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 		add_core_of = TAJ
 
 	}

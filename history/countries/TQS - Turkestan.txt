@@ -46,10 +46,23 @@ set_convoys = 5
 <<<<<<< HEAD
 set_cosmetic_tag = TAG_SOV
 
+<<<<<<< Updated upstream
+=======
+set_politics = {
+	ruling_party = authoritarianism
+=======
+<<<<<<< HEAD
+set_cosmetic_tag = TAG_SOV
+
+>>>>>>> Stashed changes
 =======
 >>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
 set_politics = {
 	ruling_party = authortarianism
+<<<<<<< Updated upstream
+=======
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 	last_election = "1914.1.1"
 	election_frequency = 48
 	elections_allowed = no

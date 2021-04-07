@@ -4,19 +4,43 @@ state={
 	name="STATE_675"
 
 	history={
+<<<<<<< Updated upstream
 		owner = JBL
+=======
+<<<<<<< HEAD
+		owner = POL
+=======
+		owner = JBL
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
 
 		}
+<<<<<<< Updated upstream
 		add_core_of = JBL
+=======
+<<<<<<< HEAD
+		add_core_of = POL
+=======
+		add_core_of = JBL
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 
 	}
 
 	provinces={
+<<<<<<< Updated upstream
 		1631 4951 10744 12879 13505
+=======
+<<<<<<< HEAD
+		400 11274 11329 13355
+=======
+		1631 4951 10744 12879 13505
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 	}
 	manpower=81042
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 }

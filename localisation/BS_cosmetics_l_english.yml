@@ -1,5 +1,11 @@
 ﻿l_english:
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
  EST_SOV_autonomy_integrated_puppet:0 "Estonia Governorate"
  LAT_SOV_autonomy_integrated_puppet:0 "Livonia Governorate"
  CUR_SOV_autonomy_integrated_puppet:0 "Courland Governorate"
@@ -27,9 +33,37 @@
  KHV_SOV_autonomy_puppet:0 "Khiva"
  BQR_SOV_autonomy_puppet:0 "Bukhara"
  KML_SOV_autonomy_puppet:0 "Kumul Khanate"
+<<<<<<< Updated upstream
 
 =======
 >>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+=======
+<<<<<<< HEAD
+ MON_SOV_autonomy_puppet:0 "Mongolian Protectorate"
+ 
+ FIN_SOV_autonomy_dominion:0 "Grand Duchy of Finland"
+ 
+ SUD_ENG_autonomy_colony:0 "Sudanese Condominium"
+ NGA_ENG_autonomy_colony:0 "Protectorate of Nigeria"
+ BOT_ENG_autonomy_colony:0 "Bechuanaland Protectorate"
+ ZIM_ENG_autonomy_colony:0 "Southern Rhodesia"
+ ZAM_ENG_autonomy_colony:0 "Northern Rhodesia"
+ MLW_ENG_autonomy_colony:0 "Nyasaland"
+ KEN_ENG_autonomy_colony:0 "Colony of Kenya"
+ 
+ CMR_GER_autonomy_colony:0 "Kamerun"
+ TZN_GER_autonomy_colony:0 "Deutsch Ostafrika"
+ 
+ IRE_ENG_autonomy_dominion:0 "Dominion of Ireland"
+ 
+ HJZ_TUR_autonomy_integrated_puppet:0 "Hejaz Vilayet"
+
+=======
+
+=======
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
  SLO_HUN_autonomy_integrated_puppet:0 "Slovak Autonomy"
  SLO_HUN_autonomy_integrated_puppet_DEF:0 "the Slovak Autonomy"
  
@@ -39,6 +73,17 @@
  TRA_HUN_autonomy_integrated_puppet:0 "Transylvania Autonomy"
  TRA_HUN_autonomy_integrated_puppet_DEF:0 "the Transylvania Autonomy"
  
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+ GHA_autonomy_colony:0 "$OVERLORDADJ$ Gold Coast"
+ WAF_autonomy_colony:0 "$OVERLORDADJ$ West Africa"
+ EAF_autonomy_colony:0 "$OVERLORDADJ$ Equatorial Africa"
+ TZN_autonomy_colony:0 "$OVERLORDADJ$ East Africa"
+ 
+=======
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
  SAU_TUR_subject:0 "Rashidi Arabia"
  SAU_TUR_subject_DEF:0 "Rashidi Arabia"
  SAU_TUR_subject_ADJ:0 "Rashidi"
@@ -110,6 +155,7 @@
  BRM_UK_democratic_DEF:0 "British Burma"
  BRM_UK_neutrality:0 "British Burma"
  BRM_UK_neutrality_DEF:0 "British Burma"
+ BRM_RAJ_autonomy_integrated_puppet:0 "Burma Province"
  
  BOHEMIA_democratic:0 "Bohemian Republic"
  BOHEMIA_democratic_DEF:0 "the Bohemian Republic"

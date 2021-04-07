@@ -51,6 +51,7 @@ add_ideas = {
 		concentrated_industry2 = 1
 	}
 }
+set_cosmetic_tag = TAG_SOV
 
 set_politics = {
 	ruling_party = despotism

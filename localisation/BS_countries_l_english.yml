@@ -1,5 +1,30 @@
 ﻿l_english:
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+ HJZ_communism:0 "People's State of Hejaz"
+ HJZ_communism_DEF:0 "the People's State of Hejaz"
+ HJZ_socialism:0 "Hejaz"
+ HJZ_socialism_DEF:0 "the Hejaz"
+ HJZ_social_democracy:0 "Hejaz"
+ HJZ_social_democracy_DEF:0 "the Hejaz"
+ HJZ_liberalism:0 "Hejaz"
+ HJZ_liberalism_DEF:0 "the Hejaz"
+ HJZ_centrism:0 "Hejaz"
+ HJZ_centrism_DEF:0 "the Hejaz"
+ HJZ_conservative:0 "Hejaz"
+ HJZ_conservative_DEF:0 "the Hejaz"
+ HJZ_authoritarianism:0 "Hejaz"
+ HJZ_authoritarianism_DEF:0 "the Hejaz"
+ HJZ_despotism:0 "Kingdom of Hejaz"
+ HJZ_despotism_DEF:0 "the Kingdom of Hejaz"
+ HJZ_ultranationalism:0 "Hejaz"
+ HJZ_ultranationalism_DEF:0 "the Hejaz"
+ 
+=======
+<<<<<<< HEAD
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
  WAF_communism:0 "West African Revolutionary Federation"
  WAF_communism_DEF:0 "the West African Revolutionary Federation"
  WAF_socialism:0 "United West African Socialist Republics"
@@ -247,8 +272,16 @@
  KML_ultranationalism:0 "Kumul"
  KML_ultranationalism_DEF:0 "the Kumul"
  
+<<<<<<< Updated upstream
 =======
 >>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
  TQS_communism:0 "Turkestan Soviet Republic"
  TQS_communism_DEF:0 "the Turkestan Soviet Republic"
  TQS_socialism:0 "Turkestan People's Republic"

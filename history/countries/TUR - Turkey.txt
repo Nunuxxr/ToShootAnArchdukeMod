@@ -57,6 +57,16 @@ if = {
 		mtg_transport = 1
 	}
 }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+set_autonomy = {
+	target = HJZ
+	autonomous_state = autonomy_integrated_puppet
+}
+=======
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 
 set_politics = {
 	ruling_party = centrism

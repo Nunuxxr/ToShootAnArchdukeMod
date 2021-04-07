@@ -31,6 +31,17 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
+puppet = MDS
+puppet = ORS
+puppet = GJT
+puppet = MYS
+puppet = HYD
+puppet = JMK
+puppet = SKM
+puppet = BLC
+puppet = BRM
+puppet = RJP
+
 set_convoys = 20
 
 set_cosmetic_tag = RAJ_UK # British Raj

@@ -14,16 +14,13 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 0
-	neutrality = 100
+	conservative = 100
 }
 
 add_ideas = {
@@ -38,31 +35,8 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Liechtenstein_franz.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = social_conservatism_constitutional_monarchy
 	traits = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "Paul Hasler"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Macro Frick"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds" 
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-

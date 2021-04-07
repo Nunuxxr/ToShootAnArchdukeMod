@@ -112,9 +112,22 @@ set_convoys = 20
 		dispersed_industry3 = 1
 	}
 }
+<<<<<<< Updated upstream
 
 set_politics = {
 	ruling_party = conservatism
+=======
+<<<<<<< HEAD
+set_cosmetic_tag = SKM_RAJ
+
+set_politics = {
+	ruling_party = conservative
+=======
+
+set_politics = {
+	ruling_party = conservatism
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 	last_election = "1931.11.14"
 	election_frequency = 48
 	elections_allowed = no
