@@ -57,7 +57,21 @@ if = {
 		basic_torpedo = 1
 	}
 }
+set_cosmetic_tag = TAG_SOV
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+=======
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 set_popularities = {	authoritarianism = 100
 }
 

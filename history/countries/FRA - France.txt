@@ -107,10 +107,30 @@ set_convoys = 300
 
 # DIPLOMACY
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+set_autonomy = {
+	target = WAF
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = EAF
+	autonomous_state = autonomy_colony
+}
+
+puppet = MOR
+puppet = TUN
+=======
+>>>>>>> Stashed changes
 puppet = MOR
 puppet = TUN
 puppet = WAF
 puppet = EAF
+<<<<<<< Updated upstream
+=======
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 
 set_politics = {
 	ruling_party = conservative

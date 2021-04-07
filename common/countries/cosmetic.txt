@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 TAG_SOV = {
 	color = rgb { 23 135 40 }
 	color_ui = rgb { 30 145 47 }
@@ -518,46 +524,6 @@ OTT_SULTANATE_fascism = {
 OTT_SULTANATE_neutrality = {
 	color = rgb { 227 10 23 }
 	color_ui = rgb { 227 10 23 }
-}
-
-TUR_GREATER_TURKEY_communism = {
-	color = rgb { 227 10 23 }
-	color_ui = rgb { 227 10 23 }
-}
-
-TUR_GREATER_TURKEY_democratic = {
-	color = rgb { 227 10 23 }
-	color_ui = rgb { 227 10 23 }
-}
-
-TUR_GREATER_TURKEY_fascism = {
-	color = rgb { 227 10 23 }
-	color_ui = rgb { 227 10 23 }
-}
-
-TUR_GREATER_TURKEY_neutrality = {
-	color = rgb { 227 10 23 }
-	color_ui = rgb { 227 10 23 }
-}
-
-TUR_PROVISIONARY_communism = {
-	color = rgb { 193 99 99 }
-	color_ui = rgb { 193 99 99 }
-}
-
-TUR_PROVISIONARY_democratic = {
-	color = rgb { 193 99 99 }
-	color_ui = rgb { 193 99 99 }
-}
-
-TUR_PROVISIONARY_fascism = {
-	color = rgb { 193 99 99 }
-	color_ui = rgb { 193 99 99 }
-}
-
-TUR_PROVISIONARY_neutrality = {
-	color = rgb { 193 99 99 }
-	color_ui = rgb { 193 99 99 }
 }
 
 TRN_communism = {
@@ -1527,10 +1493,7 @@ ADN_ENG = {
 	color = rgb { 170  10  10 }
 	color_ui = rgb { 200  10  10 }
 }
-SKM_RAJ = {
-	color = rgb { 170  10  10 }
-	color_ui = rgb { 200  10  10 }
-}
+
 EQG_SPR = {
 	color = rgb { 224 198 94 }
 	color_ui = rgb { 224 198 94 }
@@ -2467,11 +2430,6 @@ WGR_ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 
-RAJ_ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
-}
-
 GER_FRA = {
 	color = rgb { 30 100 180 }
 	color_ui = rgb { 74 147 255 }
@@ -2608,376 +2566,23 @@ XSM_CHI = {
 	color = hsv { 0.18 0.6 0.9 } 
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
-
-KAS_RAJ = {
-	color = rgb { 255  156  0 }
-	color_ui = rgb { 200  10  10 }
-}
-#/
-####Compatible with Equestria At War
-#\
-CHN_CLFCHN = {
-	color = rgb { 170 64 86 }
-	color_ui = rgb { 170 64 86 }
-}
-CHN_UPPCHN = {
-	color = rgb { 170 64 86 }
-	color_ui = rgb { 170 64 86 }
-}
-EQS_CHN_COM = {
-	color = rgb { 135 83 94 }
-	color_ui = rgb { 135 83 94 }
-}
-CRY_SOM = {
-	color = rgb { 94 63 140 }
-	color_ui = rgb { 94 63 140 }
-}
-CRY_SOMIMP = {
-	color = rgb { 94 63 140 }
-	color_ui = rgb { 94 63 140 }
-}
-CRY_SOL = {
-	color = rgb { 245 210 157 }
-	color_ui = rgb { 130 123 100 }
-}
-STG_EQS = {
-	color = rgb { 252 219 100 }
-	color_ui = rgb { 135 57 63 }
-}
-STG_SIN = {
-	color = rgb { 148 44 58 }
-	color_ui = rgb { 155 135 62 }
-}
-STG_CHN = {
-	color = rgb { 81 67 78 }
-	color_ui = rgb { 81 67 78 }
-}
-STG_DEM = {
-	color = rgb { 134 99 173 }
-	color_ui = rgb { 134 99 173 }
-}
-STG_PAGAN = {
-	color = rgb { 33 61 160 }
-	color_ui = rgb { 33 61 160 }
-}
-STG_MONARCHY = {
-	color = rgb { 237 150 25 }
-	color_ui = rgb { 237 150 25 }
-}
-MAN_CHN = {
-	color = rgb { 60 64 86 }
-	color_ui = rgb { 60 64 86 }
-}
-JUN_CHN = {
-	color = rgb { 60 64 86 }
-	color_ui = rgb { 60 64 86 }
-}
-BAL_CHN = {
-	color = rgb { 71 60 86 }
-	color_ui = rgb { 71 60 86 }
-}
-SCS_CHN = {
-	color = rgb { 64 59 45 }
-	color_ui = rgb { 64 59 45 }
-}
-CES_CHN = {
-	color = rgb { 56 73 63 }
-	color_ui = rgb { 56 73 63 }
-}
-CES_CHNsouth = {
-	color = rgb { 56 73 63 }
-	color_ui = rgb { 56 73 63 }
-}
-STG_GEU = {
-	color = rgb { 102 0 0 }
-	color_ui = rgb { 102 0 0 }
-}
-EQS_COMWAR = {
-	color = rgb { 160 12 49 }
-	color_ui = rgb { 122 54 54 }
-}
-EQS_COM = {
-	color = rgb { 255 0 63 }
-	color_ui = rgb { 122 54 54 }
-}
-COM_world = {
-	color = rgb { 255 0 63 }
-	color_ui = rgb { 122 54 54 }
-}
-EQS_SOL = {
-	color = rgb { 255 224 129 }
-	color_ui = rgb { 130 123 100 }
-}
-EQS_DEM = {
-	color = rgb { 47 158 99 }
-	color_ui = rgb { 47 158 99 }
-}
-EQS_DEM1 = {
-	color = rgb { 126 140 175 }
-	color_ui = rgb { 126 140 175 }
-}
-CES_WAREND = {
-	color = rgb { 158 242 117 }
-	color_ui = rgb { 158 242 117 }
-}
-CRY_COM = {
-	color = rgb { 237 185 203 }
-	color_ui = rgb { 193 75 148 }
-}
-CRY_DEM = {
-	color = rgb { 213 166 240 }
-	color_ui = rgb { 213 166 240 }
-}
-CRY_CHN = {
-	color = rgb { 51 57 78 }
-	color_ui = rgb { 51 57 78 }
-}
-EQS_COMUNI = {
-	color = rgb { 255 0 63 }
-	color_ui = rgb { 122 54 54 }
-}
-EQS_SOM = {
-	color = rgb { 63 76 104 }
-	color_ui = rgb { 63 76 104 }
-}
-GRF_EMP = {
-	color = rgb { 104 52 9 }
-	color_ui = rgb { 181 110 53 }
-}
-EQS_CHN = {
-	color = rgb { 63 104 105 }
-	color_ui = rgb { 64 91 96 }
-}
-EQS_CHNEQS = {
-	color = rgb { 63 104 105 }
-	color_ui = rgb { 64 91 96 }
-}
-OLE_CHN = {
-	color = rgb { 142 145 168 }
-	color_ui = rgb { 142 145 168 }
-}
-OLE_CWWON = {
-	color = rgb { 224 225 249 }
-	color_ui = rgb { 224 225 249 }
-}
-STL_OUR = {
-	color = rgb { 187 112 215 }
-	color_ui = rgb { 64 91 96 }
-}
-STL_MY = {
-	color = rgb { 187 170 223 }
-	color_ui = rgb { 187 170 223 }
-}
-YAK_CHN = {
-	color = rgb { 59 110 125 }
-	color_ui = rgb { 59 110 125 }
-}
-YAK_empire = {
-	color = rgb { 124 198 240 }
-	color_ui = rgb { 124 198 240 }
-}
-JAK_CHN = {
-	color = rgb { 64 68 95 }
-	color_ui = rgb { 64 68 95 }
-}
-PLB_CHN = {
-	color = rgb { 89 81 103 }
-	color_ui = rgb { 89 81 103 }
-}
-PNG_CHN = {
-	color = rgb { 65 56 110 }
-	color_ui = rgb { 65 56 110 }
-}
-STL_CHN = {
-	color = rgb { 106 92 119 }
-	color_ui = rgb { 106 92 119 }
-}
-GRF_CHN = {
-	color = rgb { 66 64 57 }
-	color_ui = rgb { 66 64 57 }
-}
-GFF_CHN = {
-	color = rgb { 113 116 105 }
-	color_ui = rgb { 113 116 105 }
-}
-BUF_CHN = {
-	color = rgb { 97 85 70 }
-	color_ui = rgb { 97 85 70 }
-}
-DRG_CHN = {
-	color = rgb { 128 119 106 }
-	color_ui = rgb { 128 119 106 }
-}
-OLE_NEU = {
-	color = rgb { 111 140 155 }
-	color_ui = rgb { 111 140 155 }
-}
-OLE_DEM= {
-	color = rgb { 188 221 238 }
-	color_ui = rgb { 188 221 238 }
-}
-ZRS_EQS = {
-	color = rgb { 158 242 117 }
-	color_ui = rgb { 158 242 117 }
-}
-EQSBUF_DEM = {
-	color = rgb { 158 242 117 }
-	color_ui = rgb { 158 242 117 }
-}
-####### NLR PUPPETS #############
-OLE_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-SCS_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-BAL_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-CES_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-JUN_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-STL_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-CRY_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-STG_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-YAK_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-JAK_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb {41 37 110 }
-PLB_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-PNG_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-GRF_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-GFF_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-BUF_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-DRG_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-CHN_NLR = {
-	color = rgb { 41 37 110 }
-	color_ui = rgb { 41 37 110 }
-}
-####### SOL PUPPETS #############
-OLE_SOL = {
-	color = rgb { 237 234 186 }
-	color_ui = rgb { 237 234 186 }
-}
-SCS_SOL = {
-	color = rgb { 168 159 123 }
-	color_ui = rgb { 168 159 123 }
-}
-BAL_SOL = {
-	color = rgb { 209 162 116 }
-	color_ui = rgb { 209 162 116 }
-}
-CES_SOL = {
-	color = rgb { 238 236 179 }
-	color_ui = rgb { 238 236 179 }
-}
-JUN_SOL = {
-	color = rgb { 255 224 129 }
-	color_ui = rgb { 255 224 129 }
-}
-STL_SOL = {
-	color = rgb { 255 224 129 }
-	color_ui = rgb { 255 224 129 }
-}
-STG_SOL = {
-	color = rgb { 255 224 129 }
-	color_ui = rgb { 255 224 129 }
-}
-YAK_SOL = {
-	color = rgb { 183 192 139 }
-	color_ui = rgb { 183 192 139 }
-}
-JAK_SOL = {
-	color = rgb { 133 156 114 }
-	color_ui = rgb { 133 156 114 }
-}
-PLB_SOL = {
-	color = rgb { 129 132 100 }
-	color_ui = rgb { 129 132 100 }
-}
-PNG_SOL = {
-	color = rgb { 158 152 124 }
-	color_ui = rgb { 158 152 124 }
-}
-GRF_SOL = {
-	color = rgb { 189 172 130 }
-	color_ui = rgb { 189 172 130 }
-}
-GFF_SOL = {
-	color = rgb { 237 220 178 }
-	color_ui = rgb { 237 220 178 }
-}
-BUF_SOL = {
-	color = rgb { 255 224 129 }
-	color_ui = rgb { 255 224 129 }
-}
-DRG_SOL = {
-	color = rgb { 173 162 134 }
-	color_ui = rgb { 173 162 134 }
-}
-CHN_SOL = {
-	color = rgb { 141 117 75 }
-	color_ui = rgb { 141 117 75 }
-}
-OLC = {
-	color = rgb { 83 113 131 }
-	color_ui = rgb { 83 113 131 }
-}
-####### GRIFFON CONTINENT #######
-GRW_ARMY = {
-	color = rgb { 255 51 51 }
-	color_ui = rgb { 255 51 51 }
-}
-GRW_prywhen = {
-	color = rgb { 182 43 62 }
-	color_ui = rgb { 182 43 62 }
-}
-GRIF_EMPIRE = {
-	color = rgb { 229 138 47 }
-	color_ui = rgb { 229 138 47 }
-}
-GRW_BAN = {
-	color = rgb { 84 51 37 }
-	color_ui = rgb { 84 51 37 }
-}
+TAG_HUN = {
+	color = rgb { 76 128 50 }
+	color_ui = rgb { 255 164 137 }
+}
+TAG_TUR = {
+	color = { 128 34 31 }
+	color_ui = { 138 39 36 }
+}
+TAG_FRA = {
+	color = { 12 12 190 }
+	color_ui = rgb { 22 22 200 }
+}
+<<<<<<< HEAD
+SKM_RAJ = {
+	color = { 175 12 12 }
+	color_ui = { 185 16 16 }
+=======
 GRW_FASHPUPPET = {
 	color = rgb { 65 54 54 }
 	color_ui = rgb { 65 54 54 }
@@ -3364,48 +2969,46 @@ AUU = {
 Norway_Sweden = {
     color = rgb { 240 210 20 }
     color_ui = rgb { 240 210 20 }
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
 }
-YUG = {
-	color = rgb { 72 73 126 }
-	color_ui = rgb { 94 95 164 }
+JMK_RAJ = {
+	color = { 175 12 12 }
+	color_ui = { 185 16 16 }
 }
-SIT = {
-    color = rgb { 240 230 172 }
-    color_ui = rgb { 240 230 172 }
+GJT_RAJ = {
+	color = { 175 12 12 }
+	color_ui = { 185 16 16 }
 }
-MAL_UK = {
-    color = rgb { 201 56 93 }
-    color_ui = rgb { 255 73 121 }
+BLC_RAJ = {
+	color = { 175 12 12 }
+	color_ui = { 185 16 16 }
 }
-HUN_EMPIRE = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+MDS_RAJ = {
+	color = { 175 12 12 }
+	color_ui = { 185 16 16 }
 }
-
-AUS_NOT_WHITE = {	
-	color = rgb { 249 126 98 }
-	color_ui = rgb { 255 164 127 }
+MYS_RAJ = {
+	color = { 175 12 12 }
+	color_ui = { 185 16 16 }
 }
-
-BLACK = {
-	color = rgb { 10 10 10 }
-	color_ui = rgb { 10 10 10 }
+ORS_RAJ = {
+	color = { 175 12 12 }
+	color_ui = { 185 16 16 }
 }
-
-CHARLESTON = {
-	color = rgb { 35 43 43 }
-	color_ui = rgb { 35 43 43 }
+HYD_RAJ = {
+	color = { 175 12 12 }
+	color_ui = { 185 16 16 }
 }
-
-GREY = {
-	color = rgb { 127 127 127 }
-	color_ui = rgb { 127 127 127 }
+RJP_RAJ = {
+	color = { 175 12 12 }
+	color_ui = { 185 16 16 }
 }
-
-SILVER = {
-	color = rgb { 130 135 150 }
-	color_ui = rgb { 130 135 150 }
+BRM_RAJ = {
+	color = { 175 12 12 }
+	color_ui = { 185 16 16 }
 }
+<<<<<<< HEAD
+=======
 
 WHITE = {
 	color = rgb { 250 250 250 }
@@ -6313,6 +5916,10 @@ TAG_HUN = {
 	color = rgb { 76 128 50 }
 	color_ui = rgb { 255 164 137 }
 }
+<<<<<<< Updated upstream
+=======
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 #/
 #/
 #/

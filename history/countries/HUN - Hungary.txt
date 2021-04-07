@@ -50,6 +50,13 @@ set_politics = {
 }
 set_popularities = {
 	authoritarianism = 100
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+}
+
+=======
+>>>>>>> Stashed changes
 }
 
 =======
@@ -67,11 +74,19 @@ if = {
 	set_autonomy = {
 		target = TRA
 		autonomous_state = autonomy_integrated_puppet
+<<<<<<< Updated upstream
 	}
 	set_autonomy = {
 		target = SLO
 		autonomous_state = autonomy_integrated_puppet
 	}
+=======
+	}
+	set_autonomy = {
+		target = SLO
+		autonomous_state = autonomy_integrated_puppet
+	}
+>>>>>>> Stashed changes
 	else = {
 		puppet = BNT
 		puppet = TRA
@@ -90,6 +105,10 @@ set_popularities = {
 }
 
 >>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+<<<<<<< Updated upstream
+=======
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 create_corps_commander = {
 	name = "Géza Lakatos"
 	gfx = GFX_Portrait_hungary_geza_lakatos

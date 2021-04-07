@@ -47,7 +47,16 @@ set_convoys = 5
 set_cosmetic_tag = TAG_SOV
 
 =======
+<<<<<<< Updated upstream
 >>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+=======
+<<<<<<< HEAD
+set_cosmetic_tag = TAG_SOV
+
+=======
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 set_politics = {
 	ruling_party = despotism
 	last_election = "1914.1.1"

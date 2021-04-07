@@ -1,4 +1,4 @@
-﻿capital = 428
+﻿capital = 423
 
 set_stability = 0.6
 set_war_support = 0.1
@@ -115,21 +115,21 @@ set_convoys = 20
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
-set_cosmetic_tag = GJT_RAJ
+set_cosmetic_tag = MDS_RAJ
 =======
 >>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
 >>>>>>> Stashed changes
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = authoritarianism
 	last_election = "1931.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	conservative = 36
-	authoritarianism = 35
-	despotism = 29
+	conservative = 41
+	authoritarianism = 45
+	despotism = 14
 }
 
 create_corps_commander = {

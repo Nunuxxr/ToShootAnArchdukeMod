@@ -14,6 +14,14 @@ set_technology = {
 
 set_convoys = 10
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+set_cosmetic_tag = TAG_SOV
+
+=======
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 set_politics = {
 	ruling_party = authoritarianism
 	last_election = "1926.5.8"

@@ -1,5 +1,15 @@
 #reload countrycolors
 <<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+HJZ = {
+	color = rgb { 169 78 240 }
+	color_ui = rgb { 169 78 240 }
+}
+=======
+<<<<<<< HEAD
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 WAF = {
 	color = rgb { 123 123 255 }
 	color_ui = rgb { 123 123 255 }
@@ -52,8 +62,16 @@ KML = {
 	color = rgb { 255 188 121 }
 	color_ui = rgb { 255 188 121 }
 }
+<<<<<<< Updated upstream
 =======
 >>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f3d0a5fc51fa1370d1301f6583b87e557f8ab6c5
+>>>>>>> e3293b6f1f08e0b6b3aba207bdd76f552aba4e16
+>>>>>>> Stashed changes
 KHV = {
 	color = rgb { 0 100 0 }
 	color_ui = rgb { 0 100 0 }
