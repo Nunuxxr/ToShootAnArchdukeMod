@@ -1,0 +1,26 @@
+state={
+	id=405
+	name="STATE_405"
+
+	history={
+		owner = TQS
+		add_core_of = TQS
+		victory_points = {
+			1459 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			air_base = 1
+
+		}
+		add_core_of = TQS
+	}
+
+	provinces={
+		4629 7682 7775 10671 11687
+	}
+	manpower=6275820
+	buildings_max_level_factor=1.000
+	state_category=city
+}

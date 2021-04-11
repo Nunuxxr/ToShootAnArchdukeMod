@@ -1,0 +1,22 @@
+state={
+	id=1154
+	name="STATE_1154"
+
+	history={
+		owner = TMS
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TMS
+		add_core_of = PER
+
+	}
+
+	provinces={
+		1521 2000 5029 10351 
+	}
+	manpower=7029
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

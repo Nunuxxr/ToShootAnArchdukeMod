@@ -1,0 +1,21 @@
+﻿capital = 47
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = centrism
+	last_election = "1931.6.9"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_autonomy = {
+	target = ALB
+	autonomous_state = autonomy_puppet
+}
+set_popularities = {
+	centrism = 100
+}
+
+set_stability = 0.72
+set_war_support = 0.23
+set_convoys = 80

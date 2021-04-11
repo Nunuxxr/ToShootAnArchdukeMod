@@ -1,0 +1,26 @@
+state={
+	id=732
+	name="STATE_732"
+
+	history={
+		add_core_of = TQS
+		owner = TQS
+		victory_points = {
+			12583 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TQS
+		add_core_of = KYR
+
+	}
+
+	provinces={
+		1483 1675 1825 2058 4224 4316 4391 4768 4923 5062 12370 12511 12583 13147 
+	}
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

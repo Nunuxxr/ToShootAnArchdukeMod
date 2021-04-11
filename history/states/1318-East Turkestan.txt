@@ -1,0 +1,24 @@
+state={
+	id=1318
+	name="STATE_1318"
+
+        history={
+		owner = KAZ
+		add_core_of = KAZ
+		add_core_of = TUG
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1708 1844 4714 4823 4849 7693 7737 12590 12737 
+	}
+	manpower=49650
+	buildings_max_level_factor=1.000
+        state_category=pastoral
+}

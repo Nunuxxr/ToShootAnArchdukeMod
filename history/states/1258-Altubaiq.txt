@@ -1,0 +1,22 @@
+state={
+	id=1258
+	name="STATE_1258"
+	
+	history={
+		owner = TQS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = TQS
+
+	}
+	
+	provinces={
+		1459 4686 7556 7597 7706 10148 10408 10488 10506 10530 10601 10603 10660 12340 12397 12640 12658
+	}
+	manpower=158000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
+

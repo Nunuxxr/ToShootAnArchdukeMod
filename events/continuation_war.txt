@@ -1,0 +1,293 @@
+#Continuation War events
+
+add_namespace = fincon
+
+#Continuation War chain (if Finland was attacked by Soviets during Winter War and lost)
+country_event = {
+	id = fincon.1
+	title = fincon.1.t
+	desc = fincon.1.d
+
+	picture = GFX_report_finland_continuation_war
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = FIN
+		SOV = { has_war_with = GER }
+		OR = {
+			SOV = { owns_state = 147 }	
+			SOV = { owns_state = 146 }
+			SOV = { owns_state = 1067 }
+		}
+		#owns_state = 722
+		NOT = { has_global_flag = finland_soviet_continuation_war }
+		NOT = { has_global_flag = new_finnish_soviet_border_flag } #a flag from the Vanilla Formable Nations Patch mod #the event won't fire if you already got the Moscow Armstice event via VFNP mod
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = fincon.1.a
+		ai_chance = { factor = 100 }
+		if = {
+			limit = { FIN { is_in_faction = no } }
+			create_faction = NORTHERN_FRONT_FACTION #Done so that Finland won't join Axis, so it can get still get separate peace with the Soviet Union, get invaded by Germany and not declare a war on allies
+		}
+		declare_war_on = {
+			target = SOV
+			type = take_core_state
+		}
+		FIN = { give_military_access = GER }
+		news_event = { id = fincon.2 }
+		set_global_flag = finland_soviet_continuation_war
+	}
+
+	option = {
+		name = fincon.1.b
+	}
+}
+
+news_event = {
+	id = fincon.2
+	title = fincon.2.t
+	desc = fincon.2.d
+	picture = GFX_news_event_finland_continuation_war
+
+	major = yes
+
+	#fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = fincon.2.a
+		trigger = {
+			OR = {
+				has_government = fascism
+				has_war_with = SOV
+			}
+		}
+	}
+
+	option = {
+		name = fincon.2.b
+		trigger = {
+			AND = {
+				NOT = { has_government = fascism }
+				NOT = { has_war_with = SOV }
+			}
+		}
+	}	
+}
+
+#Moscow armstice
+country_event = {
+	id = fincon.3
+	title = fincon.3.t
+	desc = fincon.3.d
+	picture = GFX_report_end_of_continuation_war
+	
+	trigger = {
+		tag = FIN
+		has_war_with = SOV
+		surrender_progress > 0.15
+		has_global_flag = finland_soviet_continuation_war
+	}
+
+	mean_time_to_happen = { days = 2 }
+
+	fire_only_once = yes
+
+	option = {
+		name = fincon.3.a
+		ai_chance = { factor = 100 }
+		SOV = {
+			country_event = { id = fincon.4 }
+		}
+		effect_tooltip = {
+			SOV = { 
+				white_peace = {
+					tag = FIN 
+					message = FIN_agree_peace 
+				} 
+			}
+		}
+	}
+
+	#With this option Soviet Union will go and puppet Finland which can led to annexation of Finland via separate event
+	option = {
+		name = fincon.3.b
+	}
+}
+
+#Soviet response to Finish surrender
+country_event = {
+	id = fincon.4
+	title = fincon.4.t
+	desc = fincon.4.d
+	picture = GFX_report_end_of_continuation_war
+	
+	is_triggered_only = yes
+
+	#Accept surrender
+	option = {
+		name = fincon.4.a
+		ai_chance = { factor = 100 }
+		white_peace = FIN
+		#ENG = { white_peace = FIN }
+		#USA = { white_peace = FIN }
+		transfer_state = 146
+		transfer_state = 147
+		transfer_state = 722
+		transfer_state = 1068
+		FIN = { leave_faction = yes }
+		FIN = { 
+			set_popularities = {
+				democratic = 50
+				neutrality = 35
+				fascism = 0
+				communism = 15
+			}
+		}
+		FIN = {
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}
+		}
+		clr_global_flag = finland_soviet_continuation_war
+		FIN = { give_military_access = SOV }
+		news_event = { id = fincon.6 }
+	}
+
+	#Take it all
+	option = {
+		name = fincon.4.b
+		FIN = { country_event = { id = fincon.5 } }
+	}
+}
+
+#Soviets don't agree
+country_event = {
+	id = fincon.5
+	title = fincon.5.t
+	desc = fincon.5.d
+	picture = GFX_report_end_of_continuation_war
+	
+	is_triggered_only = yes
+
+	option = {
+		name = fincon.5.a
+		clr_global_flag = finland_soviet_continuation_war
+	}
+}
+
+news_event = {
+	id = fincon.6
+	title = fincon.6.t
+	desc = fincon.6.d
+	picture = GFX_news_event_end_of_continuation_war
+
+	major = yes
+
+	#fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = fincon.6.a
+		trigger = {
+			OR = {
+				has_government = fascism
+				has_war_with = SOV
+			}
+		}
+	}
+
+	option = {
+		name = fincon.6.b
+		trigger = {
+			AND = {
+				NOT = { has_government = fascism }
+				NOT = { has_war_with = SOV }
+			}
+		}
+	}	
+}
+
+#FINLAND JOINS THE ALLIES
+country_event = {
+	id = fincon.7
+	title = fincon.7.t
+	desc = fincon.7.d
+	picture = GFX_report_end_of_continuation_war
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		date > 1944.1.1
+		is_subject = no
+		is_in_faction = yes
+		#has_government = democratic
+		OR = {
+			FIN = { is_puppet = no }
+			FIN = { is_subject_of = ENG }
+		}
+		country_exists = FIN
+		FIN = { is_in_faction = no }
+		#has_government = democratic
+		#USA = { has_war_with = GER }
+		USA = { is_in_faction_with = ENG }
+	}
+	
+	option = {
+		name = fincon.7.a
+		ai_chance = { factor = 100 }
+		FIN = { 
+			country_event = {
+    				id = fincon.8
+				days = 2
+				random = 2
+			}
+		}
+	}
+
+	option = {
+		name = fincon.7.b
+	}	
+}
+
+country_event = {
+	id = fincon.8
+	title = fincon.8.t
+	desc = fincon.8.d
+	picture = GFX_report_end_of_continuation_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = fincon.8.a
+		ai_chance = { factor = 100 }
+		ENG = { add_to_faction = FIN }
+		if = {
+			limit = { 
+				ENG = { has_war_with = GER }
+			}
+			add_to_war = { 
+				targeted_alliance = ENG
+				enemy = GER 
+				hostility_reason = asked_to_join
+			}
+		}
+	}
+
+	option = {
+		name = fincon.8.b
+	}	
+}

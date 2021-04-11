@@ -1,0 +1,22 @@
+
+state={
+	id=1290
+	name="STATE_1290"
+	
+	history={
+		owner = BQR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BQR
+
+	}
+	
+	provinces={
+		1216 1384 12218 7224 12250
+	}
+	manpower=34678
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
