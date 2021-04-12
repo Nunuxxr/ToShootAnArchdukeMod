@@ -227,9 +227,9 @@
  STATE_226:0 "Dnipropetrovsk"
  STATE_227:0 "Stalïno"
  STATE_228:0 "Voroshilovgrad"
- STATE_229:0 "Azerbaijan"
- STATE_230:0 "Armenia"
- STATE_231:0 "Georgia"
+ STATE_229:0 "Baku"
+ STATE_230:0 "Erivan"
+ STATE_231:0 "Tiflis"
  STATE_232:0 "Chechnya"
  STATE_233:0 "Sochi"
  STATE_234:0 "Krasnodar"
@@ -1000,10 +1000,10 @@
  STATE_999:0 "Aktobe"
  STATE_1000:0 "Magnitogorsk"
  STATE_1001:0 "Kars"
- STATE_1002:0 "Abkhazia"
- STATE_1003:0 "Karabakh"
- STATE_1004:0 "Nakhchivan"
- STATE_1005:0 "Masally"
+ STATE_1002:0 "UNUSED" #REPLACE
+ STATE_1003:0 "UNUSED" #REPLACE
+ STATE_1004:0 "UNUSED" #REPLACE
+ STATE_1005:0 "UNUSED" #REPLACE
  STATE_1006:0 "Halland"
  STATE_1007:0 "Västmanland"
  STATE_1008:0 "Dalarna"
@@ -1089,8 +1089,8 @@
  STATE_1088:0 "Puntland"
  STATE_1089:0 "Flandre française"
  STATE_1090:0 "Tuguro-Chumikansky"
- STATE_1091:0 "Yuzhnaya Osetiya"
- STATE_1092:0 "Kakheti"
+ STATE_1091:0 "UNUSED" #REPLACE
+ STATE_1092:0 "UNUSED" #REPLACE
  STATE_1093:0 "Riau Islands"
  STATE_1094:0 "Kelantan"
  STATE_1095:0 "Chiang Mai"
@@ -1220,11 +1220,11 @@
  STATE_1219:0 "Soochow"
  STATE_1220:0 "Southern Transvaal"
  STATE_1221:0 "Lichtenburg-Bloemhof"
- STATE_1222:0 "Ganja"
- STATE_1223:0 "Syunik"
- STATE_1224:0 "Artvin"
- STATE_1225:0 "Gurja"
- STATE_1227:0 "Adjara"
+ STATE_1222:0 "Elisavetpol"
+ STATE_1223:0 "UNUSED" #REPLACE
+ STATE_1224:0 "UNUSED" #REPLACE
+ STATE_1225:0 "Kutais"
+ STATE_1227:0 "Batum"
  STATE_1228:0 "Shkoder"
  STATE_1229:0 "Librazhd"
  STATE_1230:0 "Pelagonia"
@@ -1259,10 +1259,10 @@
  STATE_1259:0 "Svalbard"
  STATE_1260:0 "Formosa"
  STATE_1261:0 "Golan"
- STATE_1262:0 "Aghdam"
- STATE_1263:0 "Lachin"
+ STATE_1262:0 "UNUSED" #REPLACE
+ STATE_1263:0 "UNUSED" #REPLACE
  STATE_1264:0 "Duhok"
- STATE_1226:0 "Lechkhumi "
+ STATE_1226:0 "UNUSED" #REPLACE
  STATE_1265:2 "Bor"
  STATE_1266:0 "Orfeas"
  STATE_1267:0 "Sevastopol'"

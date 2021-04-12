@@ -16,10 +16,11 @@ state={
 		}
 		add_core_of = TCF
 		add_core_of = GEO
+
 	}
 
 	provinces={
-		1599 6669 6671 9702 
+		1530 1599 3667 4534 4605 6436 6669 6671 6763 9632 9702 11609 12309 12380 
 	}
 	manpower=1947211
 	buildings_max_level_factor=1.000
